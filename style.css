@@ -12,8 +12,8 @@ body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
-    /* padding-top: 50px;
-    margin: 0; */
+    /* padding-top: 50px; */
+    margin: 0;
 }
 
 header .company {
@@ -47,11 +47,17 @@ nav img {
     margin-top: 8px;
 }
 
+.nav-items {
+    margin: 20px 0 20px 0px;
+    text-align: center;
+}
 .nav-items ul {
-    list-style-type: none;    
+    list-style-type: none;   
+    padding-left: 0; 
 }
 .nav-items li {
     display: inline;
+    margin: 13px;
 }
 .nav-items a {
     text-decoration: none;
@@ -61,4 +67,7 @@ nav img {
     color: #002361;
 }
 
+main img {
+    width: 100%;
+}
 
