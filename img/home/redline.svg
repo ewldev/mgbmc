@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1845.775" height="3771.061" viewBox="0 0 1845.775 3771.061">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d5001b;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 9.312px;
+      }
+    </style>
+  </defs>
+  <g id="Red_line" data-name="Red line" transform="translate(10.619 -1076.344)">
+    <g id="red_line_connected" data-name="red line connected">
+      <path id="Path_13" data-name="Path 13" class="cls-1" d="M1185.5,2267h645V3388H1149.378"/>
+      <path id="Path_14" data-name="Path 14" class="cls-1" d="M717.5,2267.295H110.183V1297H733.5"/>
+      <path id="Path_15" data-name="Path 15" class="cls-1" d="M753.908,3387.977H121.67V4023h700.2"/>
+      <path id="Path_16" data-name="Path 16" class="cls-1" d="M1768,4180.488v662.26H1243.169"/>
+      <line id="Line_1" data-name="Line 1" class="cls-1" x1="692.297" transform="translate(-5.963 4842.748)"/>
+    </g>
+    <path id="Path_17" data-name="Path 17" class="cls-1" d="M1197.658,1297h584.665V1081"/>
+  </g>
+</svg>
