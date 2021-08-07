@@ -76,27 +76,18 @@ main img {
 
 .main-body {
     
-    background:
-     url(./img/home/redline.svg);   
-          
-     background-position:
-    top right, /* this positions the first image */
-    bottom left; /* this positions the second image */
-  background-repeat:
-    no-repeat; /* this applies to both images */
-    background-size: cover;
-    height: 4000px;
+    background-image: url(./img/home/redline.svg);   
+    background-position: center top;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    height: 3000px;
 }
 
 @media screen and (min-width: 767px) {
     .contact {
         order: 1;
     }
-
-    .box1 {
-        border-style: outset;
-
-    }
+    
 }
 
 
