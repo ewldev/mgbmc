@@ -70,18 +70,25 @@ nav {
     color: #002361;
 }
 
-main img {
-    width: 100%;
-}
-
-.main-body {
-    
+main {    
     background-image: url(./img/home/redline.svg);   
-    background-position: center top;
-    background-size: 75%;
+    background-position: 41% -5%;
+    background-size: 1000px;
     background-repeat: no-repeat;
     height: 3000px;
+    position: relative;
+}    
+
+.about-us {
+    position: absolute;
+    top: 1.7%;
+    left: 44%;
+    color: #002361;
 }
+.about-us p {
+    text-align: center;
+    margin-top: -6px;
+} 
 
 @media screen and (min-width: 767px) {
     .contact {
@@ -89,5 +96,6 @@ main img {
     }
     
 }
+
 
 
