@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131.428" height="34.641" viewBox="0 0 131.428 34.641">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d5001b;
+        stroke-miterlimit: 10;
+        stroke-width: 1.956px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #d5001b;
+      }
+
+      .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        font-size: 15.644px;
+        font-family: Poppins-MediumItalic, Poppins;
+        font-weight: 500;
+        font-style: italic;
+        letter-spacing: 0.004em;
+      }
+    </style>
+  </defs>
+  <g id="Button" transform="translate(-359.787 -1970.864)">
+    <path id="Path_7" data-name="Path 7" class="cls-1" d="M458.528,1971.941l-97.763-.1v32.684H491.214"/>
+    <path id="Path_8" data-name="Path 8" class="cls-2" d="M463.75,1971.844l27.465,27.467v-27.465Z"/>
+    <g id="Learn_More" data-name="Learn More" class="cls-3">
+      <text id="Learn_More-2" data-name="Learn More" class="cls-4" transform="translate(369.594 1994.015)"><tspan x="0" y="0">Learn More</tspan></text>
+    </g>
+  </g>
+</svg>

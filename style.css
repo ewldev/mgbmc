@@ -85,6 +85,7 @@ main {
         order: 1;
          /*to make contact to be last flex item*/
     }
+}    
 
 @media screen and (min-width: 1020px) {
     main {
@@ -99,12 +100,28 @@ main {
         position: absolute;
         top: 2.8%;
         left: 46.5%;
-        color: #002361;
+        color: #002361;       
     }
-    .about-us p {
-        text-align: center;
-        margin-top: -6px;
+    .our-history {
+        /* text-align: center; */
+        /* margin-top: -6px; */
+        color: #002361;  
     } 
-    
+    .history {
+        width: 350px;
+        position: absolute;
+        top: 8%;
+        left: 23%;
+    }
+    .history-box img {
+        position: absolute;
+        top: 7%;
+        left: 53%; 
+    }
+    .history p {
+        line-height: 35px;
+        margin-top: 20px;
+        margin-left: 
+    }
 }
 
