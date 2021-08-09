@@ -94,34 +94,44 @@ main {
         background-size: 1070px;
         background-repeat: no-repeat;
         height: 3000px;
-        position: relative;
     }
-    .about-us {
-        position: absolute;
-        top: 2.8%;
-        left: 46.5%;
-        color: #002361;       
+
+    .about-box {
+        width: 910px;
+        margin: auto; 
+        color: #002361;
+        /* border: solid gray; */
     }
-    .our-history {
-        /* text-align: center; */
-        /* margin-top: -6px; */
-        color: #002361;  
-    } 
+    .about-heading h2, .about-heading p {
+        text-align: center;
+        margin-left: 61px;
+    }
+    .about-box h2 {
+        padding-top: 81px;    
+    }    
+    
+    .history-box {
+        display: flex;
+        margin-top: 50px;
+    }
+        
     .history {
-        width: 350px;
-        position: absolute;
-        top: 8%;
-        left: 23%;
+        flex: 1 0 400px;
+        margin-left: 50px;
     }
-    .history-box img {
-        position: absolute;
-        top: 7%;
-        left: 53%; 
-    }
+    
     .history p {
         line-height: 35px;
         margin-top: 20px;
-        margin-left: 
+        margin-left: 50px;
+    }
+    .history a {
+        margin-left: 50px;
+    }
+    .about-img {
+        height: 350px;
+        
+        margin-left: 65px;
     }
 }
 
