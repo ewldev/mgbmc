@@ -99,18 +99,15 @@ main {
     .about-box {
         width: 910px;
         margin: auto; 
+        padding-top: 85px;
         color: #002361;
-        /* border: solid gray; */
+        border: solid gray;
     }
     .about-heading h2, .about-heading p {
         text-align: center;
         margin-left: 62px;
-        font-weight: 500;
     }
-    .about-box h2 {
-        padding-top: 85px;    
-    }    
-    
+        
     .history-box {
         display: flex;
         margin-top: 50px;
@@ -133,5 +130,18 @@ main {
         height: 350px;        
         margin-left: 65px;
     }
+
+    .services-box {
+        width: 910px;
+        margin: auto;
+        margin-top: 51px; 
+        color: #002361;
+        border: solid gray;    
+    }
+    .services-heading h2, .services-heading p {
+        text-align: center;
+        margin-left: 62px;
+    }
+        
 }
 
