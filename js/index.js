@@ -27,11 +27,15 @@
 
 $(document).ready(function(){
     $('.services-carousel').slick({
-      
-        autoplay: true,
-        autoplaySpeed: 2000,
-        centerMode: true,
-        centerPadding: '375px',
+      autoplay: true,
+      centerMode:true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      dots: true,
+      infinite: true,
+      cssEase: 'linear',
+      // variableWidth: true,
+      // variableHeight: true        
         // slidesToShow: 6,  
         
         // responsive: [
@@ -57,3 +61,5 @@ $(document).ready(function(){
       });
     });
  
+
+    
