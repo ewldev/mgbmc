@@ -136,9 +136,9 @@ main {
     .services-box {
         width: 910px;
         margin: auto;
-        margin-top: 51px; 
+        margin-top: 57px; 
         color: #002361;
-        /* border: solid gray;     */
+        border: solid gray;    
     }
     .services-heading h2, .services-heading p {
         text-align: center;
@@ -150,7 +150,7 @@ main {
     .clients-box {
         width: 910px;
         margin: auto;
-        margin-top: 108px;
+        margin-top: 94px;
         color: #002361;
         border: solid gray;    
     }
@@ -164,6 +164,8 @@ main {
         margin: 20px;
     }
     .client-logos {
+        margin-top: 100px;
+        /* margin-left: 50px; */
         border: solid gray;    
     }
 }        

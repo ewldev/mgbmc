@@ -61,13 +61,27 @@
     //   
     
     
+    // $(document).ready(function(){
+    //   $('.gallery-container').slick({
+    //     centerMode:true,
+        
+    //     slidesToShow: 5,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     arrows: false,
+    //     // variableWidth: true,
+    //     // variableHeight: true   
+       
+    //   });
+    // });
+    
 
     $(document).ready(function(){
           $('.client-logos').slick({
             // centerMode:true,
             
             slidesToShow: 5,
-            // slidesToScroll: 3,
+            slidesToScroll: 1,
             autoplay: true,
             arrows: false,
            
@@ -76,6 +90,9 @@
             // variableHeight: true    
           });
         });
+
+       
+
  
 
     
