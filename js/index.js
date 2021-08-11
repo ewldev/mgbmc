@@ -25,15 +25,15 @@
 //     });
 //   });
 
-$(document).ready(function(){
-    $('.services-carousel').slick({
-      autoplay: true,
-      centerMode:true,
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      dots: true,
-      infinite: true,
-      cssEase: 'linear',
+// $(document).ready(function(){
+//     $('.services-carousel').slick({
+//       autoplay: true,
+//       centerMode:true,
+//       slidesToShow: 5,
+//       slidesToScroll: 1,
+//       dots: true,
+//       infinite: true,
+//       cssEase: 'linear',
       // variableWidth: true,
       // variableHeight: true        
         // slidesToShow: 6,  
@@ -58,8 +58,24 @@ $(document).ready(function(){
         //     }
         //   }
         // ]
-      });
-    });
+    //   
+    
+    
+
+    $(document).ready(function(){
+          $('.client-logos').slick({
+            // centerMode:true,
+            
+            slidesToShow: 5,
+            // slidesToScroll: 3,
+            autoplay: true,
+            arrows: false,
+           
+            // autoplaySpeed: 2000,
+            // variableWidth: true,
+            // variableHeight: true    
+          });
+        });
  
 
     
