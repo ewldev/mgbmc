@@ -98,7 +98,7 @@ main {
         background-image: url(../img/home/redline.svg);   
         background-position: center -3%;
         /* background-size: 1070px; */
-        background-size: 990px;
+        background-size: 995px;
         background-repeat: no-repeat;
         height: 3000px;
     }
@@ -106,7 +106,7 @@ main {
     .about-box {
         width: 910px;
         margin: auto; 
-        padding-top: 85px;
+        padding-top: 72px;
         color: #002361;        
     }
     .about-heading h2, .about-heading p {
@@ -139,9 +139,9 @@ main {
     .services-box {
         width: 910px;
         margin: auto;
-        margin-top: 90px; 
+        margin-top: 53px; 
         color: #002361;
-        /* border: solid gray;     */
+        /* border: solid orange;     */
     }
     .services-heading h2, .services-heading p {
         text-align: center;
@@ -153,7 +153,7 @@ main {
     .clients-box {
         width: 910px;
         margin: auto;
-        margin-top: 160px;
+        margin-top: 119px;
         color: #002361;
     }
     .clients-heading h2 {
@@ -166,29 +166,31 @@ main {
         margin: 20px;
     }
     .client-logos {
-        margin-top: 100px;
-        /* margin-left: 50px; */
+        margin-top: 80px;
+        margin-left: 70px;
+        /* border: solid orange;     */
     }
 
     .testimonial-box {
-        width: 998px;
+        /* width: 998px; */
+        width: 927px;
         height: 600px;
         margin: auto;
-        margin-top: 27px;
+        margin-top: 57px;
         background-image: url(../img/home/testimonials/testimonial-bg.svg);
         background-position: 100% 0%;
-        background-size: 900px;
+        background-size: 860px;
         background-repeat: no-repeat;
-        border: solid orangered;   
+        /* border: solid orangered;    */
     }
 
     .testimonial-carousel {
         width: 52%;
         margin-right: 30px;
         margin-left: auto;
-        margin-top: 25px;
+        padding-top: 10px;
         z-index: -1;
-        border: solid orange;   
+        /* border: solid orange;    */
     }
 
     .testimonial-box img {
