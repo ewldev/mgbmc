@@ -136,7 +136,7 @@ main {
     .services-box {
         width: 910px;
         margin: auto;
-        margin-top: 57px; 
+        margin-top: 90px; 
         color: #002361;
         border: solid gray;    
     }
@@ -150,7 +150,7 @@ main {
     .clients-box {
         width: 910px;
         margin: auto;
-        margin-top: 94px;
+        margin-top: 160px;
         color: #002361;
         border: solid gray;    
     }
@@ -168,5 +168,31 @@ main {
         /* margin-left: 50px; */
         border: solid gray;    
     }
+
+    .testimonial-box {
+        width: 998px;
+        height: 600px;
+        margin: auto;
+        margin-top: 27px;
+        background-image: url(../img/home/testimonials/testimonial-bg.svg);
+        background-position: 100% 0%;
+        background-size: 900px;
+        background-repeat: no-repeat;
+        /* border: solid gray; */
+    }
+
+    .testimonial-carousel {
+        width: 55%;
+        margin-left: auto;
+        padding-top: 25px;
+        z-index: -1;
+    }
+
+    .testimonial-box img {
+        width: 955px;
+        border: solid gray;
+    }
+
+    
 }        
 
