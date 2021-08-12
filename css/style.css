@@ -88,10 +88,17 @@ main {
 }    
 
 @media screen and (min-width: 1020px) {
+    
+    #home-carousel {
+        max-width: 1440px;
+        margin: auto;
+    }
+
     main {
         background-image: url(../img/home/redline.svg);   
         background-position: center -3%;
-        background-size: 1070px;
+        /* background-size: 1070px; */
+        background-size: 990px;
         background-repeat: no-repeat;
         height: 3000px;
     }
@@ -100,26 +107,22 @@ main {
         width: 910px;
         margin: auto; 
         padding-top: 85px;
-        color: #002361;
-        /* border: solid gray; */
+        color: #002361;        
     }
     .about-heading h2, .about-heading p {
         text-align: center;
         margin-left: 62px;
         font-weight: 600;
         letter-spacing: 2px;
-    }
-        
+    }        
     .history-box {
         display: flex;
         margin-top: 50px;
-    }
-        
+    }        
     .history {
         flex: 1 0 400px;
         margin-left: 50px;
-    }
-    
+    }    
     .history p {
         line-height: 35px;
         margin-top: 20px;
@@ -138,7 +141,7 @@ main {
         margin: auto;
         margin-top: 90px; 
         color: #002361;
-        border: solid gray;    
+        /* border: solid gray;     */
     }
     .services-heading h2, .services-heading p {
         text-align: center;
@@ -152,7 +155,6 @@ main {
         margin: auto;
         margin-top: 160px;
         color: #002361;
-        border: solid gray;    
     }
     .clients-heading h2 {
         text-align: center;
@@ -166,7 +168,6 @@ main {
     .client-logos {
         margin-top: 100px;
         /* margin-left: 50px; */
-        border: solid gray;    
     }
 
     .testimonial-box {
@@ -178,21 +179,22 @@ main {
         background-position: 100% 0%;
         background-size: 900px;
         background-repeat: no-repeat;
-        /* border: solid gray; */
+        border: solid orangered;   
     }
 
     .testimonial-carousel {
-        width: 55%;
+        width: 52%;
+        margin-right: 30px;
         margin-left: auto;
-        padding-top: 25px;
+        margin-top: 25px;
         z-index: -1;
+        border: solid orange;   
     }
 
     .testimonial-box img {
         width: 955px;
-        border: solid gray;
     }
-
+      
     
 }        
 
