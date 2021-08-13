@@ -64,7 +64,7 @@
     // $(document).ready(function(){
     //   $('.gallery-container').slick({
     //     centerMode:true,
-        
+    //     centerPadding: '10px',
     //     slidesToShow: 5,
     //     slidesToScroll: 1,
     //     autoplay: true,
