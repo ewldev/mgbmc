@@ -232,9 +232,21 @@ main {
         justify-content:space-around;
         align-items: center;
     }
-    footer .name{
-        margin-bottom: 25px;
+    footer h3 {
+        margin-bottom: 18px;
     }
+    footer .name{
+        margin-top: -15px;
+        margin-bottom: 20px;
+    }
+    .phone2 {
+        margin-top: 13px;
+    }
+    .location h3 {
+        margin-bottom: 8px;
+
+    }
+
     .copyright-bar {
         background: #0C1B3F;
         color: white;    
@@ -242,8 +254,11 @@ main {
     .copyright-bar p {
         height: 50px;
         text-align: center;
+        font-style: italic;
         padding-top: 12px;
+        margin-bottom: 0;
     } 
+    
 
 }        
 
