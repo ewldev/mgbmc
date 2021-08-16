@@ -27,7 +27,7 @@ header h1 {
     text-align: center
 }
 
-nav img {
+/* nav img {
     margin-top: 10px;
     margin-left: 5px;
     width: 80px;
@@ -61,6 +61,10 @@ nav {
     font-size: 13px;
     font-weight: 500;
     color: #002361;
+} */
+
+#contact-info {
+    display: none;
 }
 
 main {
@@ -77,12 +81,20 @@ main {
     margin-top: -6px; */
 } 
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
     nav .contact {  
-        order: 1;
+        order: 1; */
          /*to make contact to be last flex item*/
+    /* }
+}     */
+
+@media screen and (min-width: 768px) {
+    #contact-info {
+        display:contents;
     }
-}    
+    
+}
+
 
 @media screen and (min-width: 1020px) {
     
