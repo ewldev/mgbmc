@@ -27,41 +27,29 @@ header h1 {
     text-align: center
 }
 
-/* nav img {
-    margin-top: 10px;
-    margin-left: 5px;
-    width: 80px;
-}
-
-nav .contact {
-    margin-top: 8px;
-}
-
 nav {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    color: #002361;
+}
+.navbar-nav {
+    margin: auto;
+} 
+.navbar-nav li a {
+    margin: 3px;
+    letter-spacing: 1px;   
+    color: #002361 !important; 
 }
 
-.nav-items {
-    margin: 20px 0 20px 0px;
-    text-align: center;
+.brand-img {
+    margin-left: 10px;
 }
-.nav-items ul {
-    list-style-type: none;   
-    padding-left: 0; 
-}
-.nav-items li {
-    display: inline;
-    margin: 13px;
-}
-.nav-items a {
-    text-decoration: none;
+
+/* .nav-item a {
+    /* text-decoration: none;
     letter-spacing: 0.6px;
     font-size: 13px;
-    font-weight: 500;
-    color: #002361;
-} */
+    font-weight: 500; */
+    
+/* }  */
 
 #contact-info {
     display: none;
@@ -91,8 +79,11 @@ main {
 @media screen and (min-width: 768px) {
     #contact-info {
         display:contents;
+        display: unset;
     }
-    
+    .navbar-nav {
+        text-align: ;
+    } 
 }
 
 
