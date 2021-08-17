@@ -55,11 +55,6 @@ nav {
     display: none;
 }
 
-main {
-    
-    
-}
-
 .about-us {
     
     color: #002361;
@@ -76,19 +71,22 @@ main {
     /* }
 }     */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)  {
+    .navbar-nav li a {
+        margin: 15px;
+        letter-spacing: 1px;           
+    }
+}
+
+@media screen and (min-width: 992px) {
     #contact-info {
         display:contents;
         display: unset;
-    }
-    .navbar-nav {
-        text-align: ;
-    } 
+    }    
 }
 
 
 @media screen and (min-width: 1020px) {
-    
     #home-carousel {
         max-width: 1440px;
         margin: auto;
@@ -97,10 +95,8 @@ main {
     main {
         background-image: url(../img/home/redline.svg);   
         background-position: center -3%;
-        /* background-size: 1070px; */
         background-size: 995px;
-        background-repeat: no-repeat;
-        
+        background-repeat: no-repeat;        
     }
 
     .about-box {
