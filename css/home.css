@@ -46,9 +46,11 @@ nav {
     display: none;
 }
 
-.about-box {
+main {
     margin-left: 12px;
     margin-right: 12px;
+}
+.about-box {
     padding-top: 35px;
     color: #002361;        
 }
@@ -75,16 +77,18 @@ nav {
     width: 300px;
 }
 .services-box {
-    margin-top: 53px; 
+    margin-top: 50px; 
     color: #002361;
-    /* border: solid orange;     */
 }
 .services-heading h2, .services-heading p {
     text-align: center;
-    margin-left: 62px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 2px;
 }
+.service-cards {
+    
+}
+
 
 .clients-box {
     margin-top: 119px;
@@ -201,6 +205,18 @@ footer .name{
         margin: 15px;
         letter-spacing: 1px;           
     }
+    main {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .history-box {
+        display: flex;
+        margin-top: 50px;
+    }        
+    .history p {
+        line-height: 35px;
+        margin-right: 15px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -249,10 +265,7 @@ footer .name{
         margin-top: 20px;
         margin-left: 50px;
     }
-    .history a {
-        margin-left: 50px;
-    }
-   
+      
     .services-box {
         width: 910px;
         margin: auto;
