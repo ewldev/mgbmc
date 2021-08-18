@@ -86,9 +86,13 @@ main {
     letter-spacing: 2px;
 }
 .service-cards {
-    
+    width: 310px;
+    margin: auto;
+    margin-top: -30px;    
 }
-
+.service-cards img {
+    width: 310px;
+}
 
 .clients-box {
     margin-top: 119px;
@@ -217,6 +221,15 @@ footer .name{
         line-height: 35px;
         margin-right: 15px;
     }
+
+    .service-cards {
+        width: 620px;
+        margin: auto;
+        margin-top: -30px;    
+    }
+    .service-cards img {
+        width: 620px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -278,6 +291,14 @@ footer .name{
         margin-left: 62px;
         font-weight: 600;
         letter-spacing: 2px;
+    }
+    .service-cards {
+        width: 880px;
+        margin: auto;
+        margin-top: -30px;    
+    }
+    .service-cards img {
+        width: 880px;
     }
 
     .clients-box {
