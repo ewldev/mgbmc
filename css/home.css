@@ -46,43 +46,34 @@ nav {
     display: none;
 }
 
-/* main {
-    background-image: url(../img/home/redline.svg);   
-        background-position: center 0%;
-        background-size: 800px;
-        background-repeat: no-repeat;      
-} */
-
 .about-box {
-    /* margin: auto;  */
-    padding-top: 55px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 35px;
     color: #002361;        
 }
 .about-heading h2, .about-heading p {
     text-align: center;    
 }        
 .history-box {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}        
-.history {
-    /* flex: 1 0 400px;
-    margin-left: 50px; */
-}    
-.history p {
-    line-height: 35px;
     margin-top: 20px;
-    margin-left: 50px;
+}        
+.history p {
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 .history a {
     margin-left: 50px;
 }
 .about-img {
-    height: 150px;        
-    /* margin-left: 65px; */
+    width: 300px;    
+    margin: auto;
+    margin-top: 30px;    
 }
-
+.about-img img {
+    width: 300px;
+}
 .services-box {
     margin-top: 53px; 
     color: #002361;
