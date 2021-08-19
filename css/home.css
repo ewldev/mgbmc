@@ -51,11 +51,12 @@ main {
     margin-right: 12px;
 }
 .about-box {
-    padding-top: 35px;
+    margin-top: 35px;
     color: #002361;        
 }
 .about-heading h2, .about-heading p {
-    text-align: center;    
+    text-align: center;  
+    font-weight: 500;  
 }        
 .history-box {
     margin-top: 20px;
@@ -77,40 +78,40 @@ main {
     width: 300px;
 }
 .services-box {
-    margin-top: 50px; 
+    margin-top: 70px;
+    margin-left: -12px;
+    margin-right: -12px; 
     color: #002361;
 }
 .services-heading h2, .services-heading p {
     text-align: center;
     font-weight: 500;
-    letter-spacing: 2px;
 }
 .service-cards {
-    width: 310px;
+    width: 320px;    
     margin: auto;
     margin-top: -30px;    
 }
 .service-cards img {
-    width: 310px;
+    width: 320px;    
 }
 
 .clients-box {
-    margin-top: 119px;
-    color: #002361;
+    width: 320px;
+    margin: 20px auto;
+    color: #002361; 
 }
 .clients-heading h2 {
     text-align: center;
-    margin-left: 62px;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-.client-logos img {
-    margin: 20px;
+    font-weight: 500;
 }
 .client-logos {
-    margin-top: 80px;
-    margin-left: 70px;
-    /* border: solid orange;     */
+    margin-top: 40px;
+    margin-left: -12px;
+    margin-right: -12px;        
+}
+.client-logos img {
+    margin: 0 6px;
 }
 
 .testimonial-box {
@@ -206,31 +207,53 @@ footer .name{
 
 @media screen and (min-width: 768px)  {
     .navbar-nav li a {
-        margin: 15px;
+        margin:  15px;
         letter-spacing: 1px;           
     }
     main {
         margin-left: 40px;
         margin-right: 40px;
     }
-    .history-box {
-        display: flex;
+    .about-box {
         margin-top: 50px;
     }
+    .history-box {
+        display: flex;
+    }
     .history p {
-        margin-right: 15px;
+        margin-right: 30px;
         font-size: 18px;
         line-height: 35px;
+    }
+    .about-img img {
+        margin-top: 15px;
     }
 
     .service-cards {
         width: 620px;
         margin: auto;
-        margin-top: -30px;    
+        margin-top: -50px;
     }
     .service-cards img {
         width: 620px;
     }
+
+    .clients-box {
+        width: 700px;
+        margin: 50px auto;
+        color: #002361; 
+    }
+    .clients-heading h2 {
+        text-align: center;
+        font-weight: 500;
+    }
+    .client-logos {
+        margin-top: 50px;
+    }
+    .client-logos img {
+        margin: 0 6px;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
@@ -242,6 +265,7 @@ footer .name{
 
 
 @media screen and (min-width: 1020px) {
+    
     #home-carousel {
         max-width: 1440px;
         margin: auto;
@@ -249,15 +273,14 @@ footer .name{
 
     main {
         background-image: url(../img/home/redline.svg);   
-        background-position: center -3%;
+        background-position: center -10%;
         background-size: 995px;
         background-repeat: no-repeat;        
-    }
-
+    }   
     .about-box {
         width: 910px;
         margin: auto; 
-        padding-top: 72px;
+        padding-top: 79px;
         color: #002361;        
     }
     .about-heading h2, .about-heading p {
@@ -265,10 +288,6 @@ footer .name{
         margin-left: 62px;
         font-weight: 600;
         letter-spacing: 2px;
-    }        
-    .history-box {
-        display: flex;
-        margin-top: 50px;
     }        
     .history {
         flex: 0 1 450px;
@@ -288,7 +307,7 @@ footer .name{
     .services-box {
         width: 910px;
         margin: auto;
-        margin-top: 53px; 
+        margin-top: 19px; 
         color: #002361;
         /* border: solid orange;     */
     }
@@ -301,7 +320,6 @@ footer .name{
     .service-cards {
         width: 880px;
         margin: auto;
-        margin-top: -30px;    
     }
     .service-cards img {
         width: 880px;
@@ -310,7 +328,7 @@ footer .name{
     .clients-box {
         width: 910px;
         margin: auto;
-        margin-top: 119px;
+        margin-top: 49px;
         color: #002361;
     }
     .clients-heading h2 {
@@ -415,7 +433,32 @@ footer .name{
         padding-top: 12px;
         margin-bottom: 0;
     } 
+
+@media screen and (min-width: 1440px) {
+    nav a img {
+        margin-left: 50px;
+    }
+
+    .navbar-nav li a {
+        margin: 0 30px;
+        letter-spacing: 2px;           
+    }
+
+    #contact-info {
+        margin-right: 50px;
+    }
+}    
+
+@media screen and (min-width: 1920px) {
+    nav a img {
+        width: 135px;
+        margin-left: 230px;
+    }
     
+    #contact-info {
+        margin-right: 230px;
+    }
+} 
 
 }        
 
