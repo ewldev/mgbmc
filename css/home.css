@@ -115,7 +115,7 @@ main {
 
 .testimonial-box {
     margin-top: 40px;
-    background-image: url(../img/home/red-arrow.svg);
+    background-image: url(../img/red-arrow.svg);
     background-position: 100% 0%;
     background-size: 60px;
     background-repeat: no-repeat;
@@ -131,7 +131,7 @@ main {
     color: #002361;
     margin-top: 70px;
     text-align: center;
-    background-image: url(../img/home/red-arrow.svg);
+    background-image: url(../img/red-arrow.svg);
     background-position: 80% 81%;
     background-size: 30px;
     background-repeat: no-repeat;
@@ -370,7 +370,7 @@ footer .name{
         color: #002361;
         margin-top: 119px;
         text-align: center;
-        background-image: url(../img/home/contact/contact-arrow.svg);
+        background-image: url(../img/red-arrow.svg);
         background-position: 85% 76%;
         background-size: 40px;
         background-repeat: no-repeat;
