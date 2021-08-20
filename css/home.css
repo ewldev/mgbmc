@@ -97,7 +97,6 @@ main {
 }
 
 .clients-box {
-    width: 320px;
     margin: 20px auto;
     color: #002361; 
 }
@@ -115,48 +114,37 @@ main {
 }
 
 .testimonial-box {
-    margin-top: 57px;
-    background-image: url(../img/home/testimonials/testimonial-bg.svg);
+    margin-top: 40px;
+    background-image: url(../img/home/red-arrow.svg);
     background-position: 100% 0%;
-    /* background-size: 860px; */
+    background-size: 60px;
     background-repeat: no-repeat;
     /* border: solid orangered;    */
 }
 
 .testimonial-carousel {
-    width: 52%;
-    margin-left: auto;
-    margin-right: 27px;
     padding-top: 10px;
     z-index: -1;
-    /* border: solid orange;    */
 }
 
 .contact-us-box {
     color: #002361;
-    margin-top: 119px;
+    margin-top: 40px;
     text-align: center;
-    background-image: url(../img/home/contact/contact-arrow.svg);
-    background-position: 85% 76%;
-    background-size: 40px;
+    background-image: url(../img/home/red-arrow.svg);
+    background-position: 81% 88%;
+    background-size: 35px;
     background-repeat: no-repeat;
     /* border: solid orange;    */
 }
 .contact-us-box h2 {
-    margin-left: 62px;        
-    font-size: 35px;
     font-weight: 700;
 }    
 .contact-us-box h3 {
-    margin-top: 50px;
-    margin-left: 62px;  
-    font-size: 45px;
     font-weight: 500;
 }
 .contact-us-box p {
-    /* margin-top: 10px; */
-    margin-left: 40px;  
-    font-size: 70px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: 2px;
 }
