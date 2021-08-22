@@ -150,14 +150,14 @@ main {
 }
 
 footer {
-    height: 380px;
+    /* height: 380px; */
     margin-top: 50px;
     background: #0D295D;
-    color: white;
+    color: white;  
     display: flex;
     flex-wrap: wrap;
     /* justify-content:space-around; */
-    /* align-items: center; */
+    /* align-items: center; */  
 }
 footer h3 {
     margin: 18px 0;
@@ -165,7 +165,7 @@ footer h3 {
 .contact-info2 {
     margin: 0 auto;
 }
-footer .name{
+.name{
     margin-top: -15px;
     margin-bottom: 20px;
 }
@@ -173,10 +173,10 @@ footer .name{
     margin-top: 13px;
 }
 .white-logo {
-    margin: 0  auto 10px;
+    margin: 20px auto 30px;
 }
 .white-logo img {
-    width: 150px;    
+    width: 140px;    
 }
 .location  {
     display: none;
@@ -257,6 +257,18 @@ footer .name{
     .contact-us-box p {
         font-size: 45px;
         letter-spacing: 2px;
+    }
+    
+    footer {
+        align-items: center;
+    }
+    .white-logo img {
+         width: 180px;    
+     }
+    .location {
+        display:contents;
+        display: unset;
+        margin: auto;
     }
     
     
