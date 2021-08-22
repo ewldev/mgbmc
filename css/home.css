@@ -150,14 +150,11 @@ main {
 }
 
 footer {
-    /* height: 380px; */
     margin-top: 50px;
     background: #0D295D;
     color: white;  
     display: flex;
-    flex-wrap: wrap;
-    /* justify-content:space-around; */
-    /* align-items: center; */  
+    flex-wrap: wrap;    
 }
 footer h3 {
     margin: 18px 0;
@@ -268,7 +265,7 @@ footer h3 {
     .location {
         display:contents;
         display: unset;
-        margin: auto;
+        margin: 0 auto 20px;
     }
     
     
