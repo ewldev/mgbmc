@@ -20,10 +20,11 @@ header .company {
 }
 
 header h1 {
-    font-size: 18px;
     color: white;
+    text-align: center;
+    font-size: 18px;
     padding: 10px 5px 10px 5px;    
-    text-align: center
+    margin-bottom: 0;
 }
 
 nav {
@@ -33,11 +34,11 @@ nav {
     margin: auto;
 } 
 .navbar-nav li a {
-    margin: 3px;
-    font-size: 20px;
+    margin: 2px;
+    font-size: 19px;
+    font-weight: 600;
     color: #002361 !important; 
-}
-
+}    
 .brand-img {
     margin-left: 10px;
 }
@@ -128,7 +129,6 @@ main {
 }
 
 .contact-us-box {
-    color: #002361;
     margin-top: 70px;
     text-align: center;
     background-image: url(../img/red-arrow.svg);
@@ -136,6 +136,11 @@ main {
     background-size: 30px;
     background-repeat: no-repeat;
     /* border: solid orange;    */
+}
+.contact-us-box a {
+    color: #002361;
+    text-decoration: none;
+    
 }
 .contact-us-box h2 {
     font-weight: 700;
