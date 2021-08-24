@@ -49,56 +49,63 @@ nav {
 }
 
 .about-box {
-    width: 300px;
-    margin: 30px auto 0;
+    margin: 50px auto;
     color: #002361;  
-    background-image: url(../img/red-arrow.svg);
-    background-position: 98% 77%;
-    background-size: 60px;
-    background-repeat: no-repeat;   
+    
 }
 .about-box h2 {
     text-align: center; 
     font-weight: 600;  
 }
-.about-us img {
-    width: 300px;
-    margin-top: 20px;     
+.about-img {
+    margin: 20px 15px;
 }
-.about-box p {
-    margin: 35px 35px 60px 5px;
+.about-img img {
+    max-width: 100%;
+}
+.about-trust {
+    width: 300px;
+    margin: 0 auto;
+    background-image: url(../img/red-arrow.svg);
+    background-position: 100% 0;
+    background-size: 60px;
+    background-repeat: no-repeat;   
+}
+.about-trust p {
+    padding: 25px 15px 0 20px;
     font-size: 18px;
     font-weight: 500;
+    line-height: 30px;  
 }
 
 .story-box {
-    width: 300px;
-    margin: 60px auto ;
+    margin: 60px auto;
     color: #002361;
 }
 .story-box h2 {
     text-align: center;
     font-weight: 600;
 }
-.story-content img {
-    width: 300px; 
-    margin-top: 20px;
-    margin-bottom: 20px;
+.story-img {
+    margin: 20px 15px;
+}
+.story-img img {
+    max-width: 100%; 
 }    
 .story-content h3 {
-    margin: 30px 0 0 0;
+    margin: 30px 0 0 12px;
     font-size: 22px;
     font-weight: 600;
 }
 .story-content p {
-    margin: 15px 0 0 10px;
+    margin: 20px 25px;
     font-size: 18px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 30px;  
 }
 
 .mission-box {
-    margin: 20px auto;
+    margin: 80px auto;
     color: #002361; 
 }
 .mission-box h2 {
@@ -106,14 +113,17 @@ nav {
     font-weight: 600;
 }
 .mission-box p {
-    /* text-align: center; */
+    text-align: center;
     margin: 20px 15px;
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;      
 }
-.mission-box img {
-    max-width: 90%;
+.mission-img {
+    margin: 20px 15px; 
+}
+.mission-img img {
+    max-width: 100%;
 }
 
 .approach-box {
@@ -131,10 +141,14 @@ nav {
     font-weight: 500;
     line-height: 30px;      
 }
-.approach-box img {
-    max-width: 100%;
-       
+.approach-img {
+    margin: 20px 15px; 
 }
+.approach-img img {
+    max-width: 100%;
+}
+  
+
 
 
 
