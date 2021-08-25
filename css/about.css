@@ -295,128 +295,46 @@ footer h3 {
     
     main {
         background-image: url(../img/about/redline.svg);   
-        background-position: center -5%;
-        background-size: 945px;
+        background-position: center 33px;
+        background-size: 900px;
         background-repeat: no-repeat;        
     }   
     .about-box {
         width: 910px;
-        margin: auto; 
-        padding-top: 79px;
-        color: #002361;        
+        padding-top: 19px;
     }
-    .about-heading h2, .about-heading p {
-        text-align: center;
-        margin-left: 62px;
-        font-weight: 600;
-        letter-spacing: 2px;
-    }        
-    .history {
-        flex: 0 1 450px;
-        margin-left: 50px;
-        margin-right: -50px;
-    }    
-    .history p {
-        margin-top: 20px;
-        margin-left: 50px;
+    .about-box h2 {
+        margin-right: 88px;
+    } 
+    .about-img {
+        padding-top: 60px;
     }
-    .about-img img {
-        width: 380px;
+    .about-trust {
+        width: 510px;
+        margin-top: 150px;       
     }
+    .about-trust p {
+        font-size: 22px;
+    }
+     
+    
+    .story-box {
+        width: 910px;
+        margin: auto;
+    }
+
+    .mission-box {
+        width: 910px;
+        margin: auto;
+    }
+
+    .approach-box {
+        width: 910px;
+        margin: auto;
+    }
+    
       
-    .services-box {
-        width: 910px;
-        margin: auto;
-        margin-top: 19px; 
-        color: #002361;
-        /* border: solid orange;     */
-    }
-    .services-heading h2, .services-heading p {
-        text-align: center;
-        margin-left: 62px;
-        font-weight: 600;
-        letter-spacing: 2px;
-    }
-    .service-cards {
-        width: 880px;
-        margin: auto;
-    }
-    .service-cards img {
-        width: 880px;
-    }
-
-    .clients-box {
-        width: 910px;
-        margin: auto;
-        margin-top: 49px;
-        color: #002361;
-    }
-    .clients-heading h2 {
-        text-align: center;
-        margin-left: 62px;
-        font-weight: 600;
-        letter-spacing: 2px;
-    }
-    .client-logos img {
-        margin: 20px;
-    }
-    .client-logos {
-        margin-top: 80px;
-        margin-left: 70px;
-        /* border: solid orange;     */
-    }
-
-    .testimonial-box {
-        width: 928px;
-        /* height: 1000px; */
-        margin: auto;
-        margin-top: 57px;
-        background-image: url(../img/home/testimonials/testimonial-bg.svg);
-        background-position: 100% 0%;
-        background-size: 860px;
-        background-repeat: no-repeat;
-        /* border: solid orangered;    */
-    }
-
-    .testimonial-carousel {
-        width: 52%;
-        margin-left: auto;
-        margin-right: 27px;
-        padding-top: 10px;
-        z-index: -1;
-        /* border: solid orange;    */
-    }
-
-    .contact-us-box {
-        width: 600px;
-        margin: auto;
-        color: #002361;
-        margin-top: 119px;
-        text-align: center;
-        background-image: url(../img/red-arrow.svg);
-        background-position: 85% 76%;
-        background-size: 40px;
-        background-repeat: no-repeat;
-        /* border: solid orange;    */
-    }
-    .contact-us-box h2 {
-        margin-left: 62px;        
-        font-size: 35px;
-        font-weight: 700;
-    }    
-    .contact-us-box h3 {
-        margin-top: 50px;
-        margin-left: 62px;  
-        font-size: 45px;
-        font-weight: 500;
-    }
-    .contact-us-box p {
-        /* margin-top: 10px; */
-        margin-left: 40px;  
-        font-size: 70px;
-        font-weight: 700;
-        letter-spacing: 2px;
-    }
+    
 
     footer {
         height: 280px;
