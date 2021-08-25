@@ -67,7 +67,7 @@ nav {
     width: 300px;
     margin: 0 auto;
     background-image: url(../img/red-arrow.svg);
-    background-position: 100% 0;
+    background-position: 98% 3%;
     background-size: 60px;
     background-repeat: no-repeat;   
 }
@@ -135,7 +135,7 @@ nav {
     font-weight: 600;
 }
 .approach-box p {
-    /* text-align: center; */
+    text-align: center;
     margin: 20px 15px;
     font-size: 18px;
     font-weight: 500;
@@ -147,10 +147,6 @@ nav {
 .approach-img img {
     max-width: 100%;
 }
-  
-
-
-
 
 footer {
     margin-top: 50px;
@@ -206,15 +202,24 @@ footer h3 {
         letter-spacing: 1px;           
     }
     main {
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
-    .about-box {
-        margin-top: 50px;
+    .about-us {
+        display: flex;
     }
-    .about-heading p {
-        font-size: 18px;
+    .about-img {
+        flex: 1 0 450px;
+        margin-left: -15px;
     }
+    .about-trust {
+        margin: 100px 0 0 -100px;
+    }
+    .about-trust p {
+        font-size: 20px;
+    }
+     
+    
     .history-box {
         display: flex;
     }
