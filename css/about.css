@@ -217,11 +217,11 @@ footer h3 {
         display: flex;
     }
     .about-img {
-        flex: 1 0 450px;
+        flex: 0 0 450px;
         margin-left: -15px;
     }
     .about-trust {
-        margin: 100px 0 0 -100px;
+        margin: 100px 0 0 -90px;
     }
     .about-trust p {
         font-size: 20px;
@@ -231,53 +231,41 @@ footer h3 {
     .story-content {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     .story-img {
-        flex: 0 1 300px;
+        flex: 0 0 300px;
+        margin-top: 30px;
     }
     .story1 {
-        flex: 0 1 400px;
+        flex: 1 0 408px;
     }
-
-    .history p {
-        margin-right: 30px;
-        font-size: 18px;
-        line-height: 35px;
-    }
-    .about-img img {
-        margin-top: 15px;
-    }
-
-    .services-heading {
-        font-size: 18px;
-    }   
-    .service-cards {
-        width: 620px;
-        margin: auto;
-        margin-top: -50px;
-    }
-    .service-cards img {
-        width: 620px;
-    }
-
-    .clients-box {
-        width: 700px;
-        margin: 50px auto;
-        color: #002361; 
-    }
-    .client-logos {
-        margin-top: 50px;
-    }
-    .client-logos img {
-        margin: 0 6px;
-    }
-
-    .contact-us-box {
-        background-position: 67% 70%;
+    .story1 h3 {
+        margin: 30px 0 0 0px;
     }    
-    .contact-us-box p {
-        font-size: 45px;
-        letter-spacing: 2px;
+    .story1 p {
+        margin: 20px 20px 0 0;
+    }
+    .story2 {
+        flex: 1 0 408px;
+    }
+    .story2 h3 {
+        margin: 30px 0 0 15px;
+    }    
+    .story2 p {
+        margin: 20px 0 0 15px;
+    }
+
+    .mission-box p {
+       margin: 20px 45px;
+    } 
+    
+    .approach-content {
+        display: flex;
+    }
+    .approach-content p {
+        flex: 1 0 350px;
+        text-align: unset;
     }
     
     footer {
