@@ -11,18 +11,24 @@ body {
     font-size: 100%;
     background-image: url(../img/home/background.jpg);
     background-size: cover;
-    /* padding-top: 50px; */
+    padding-top: 134px;
     margin: 0;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; 
+    z-index: 1030;
+}
 header .company {
     background: #002D74;
 }
-
 header h1 {
     color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     padding: 10px 5px 10px 5px;    
     margin-bottom: 0;
 }
