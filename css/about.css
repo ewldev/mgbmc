@@ -94,10 +94,10 @@ nav {
     text-align: center;
     font-weight: 600;
 }
-.story-img {
+.story-img1, .story-img2 {
     margin: 20px 15px;
 }
-.story-img img {
+.story-img1 img, .story-img2 img {
     max-width: 100%; 
 }    
 .story-content h3 {
@@ -233,12 +233,12 @@ footer h3 {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .story-img {
-        flex: 0 0 300px;
+    .story-img1, .story-img2 {
+        flex: 0 1 300px;
         margin-top: 30px;
     }
     .story1 {
-        flex: 1 0 408px;
+        flex: 0 1 408px;
     }
     .story1 h3 {
         margin: 30px 0 0 0px;
@@ -293,22 +293,28 @@ footer h3 {
 
 @media screen and (min-width: 1020px) {
     
+    header h1 {
+        font-size: 26px;
+    }
+
     main {
         background-image: url(../img/about/redline.svg);   
-        background-position: center 33px;
-        background-size: 900px;
+        background-position: center 38px;
+        background-size: 990px;
         background-repeat: no-repeat;        
     }   
     .about-box {
-        width: 910px;
-        padding-top: 19px;
+        width: 992px;
+        padding-top: 23px;
     }
     .about-box h2 {
         margin-right: 88px;
-    } 
-    .about-img {
-        padding-top: 60px;
     }
+    .about-img {
+        flex: 0 0 500px;
+        margin-left: -45px;
+        padding-top: 65px;
+    } 
     .about-trust {
         width: 510px;
         margin-top: 150px;       
@@ -316,23 +322,65 @@ footer h3 {
     .about-trust p {
         font-size: 22px;
     }
-     
-    
+        
     .story-box {
-        width: 910px;
-        margin: auto;
+        width: 970px;
+        padding-top: 35px;
+    }
+    .story-box h2 {
+        padding-right: 75px;
+    }
+    .story1 {
+        padding-top: 30px;
+        flex: 0 0 620px;        
+    }
+    .story1 p {
+        padding-right: 72px;
+    }
+    .story-img1 {
+        padding-top: 25px;
+    }
+    .story2 {
+        padding-top: 20px;
+        flex: 0 0 570px;   
+    }
+    .story2 p {
+        padding-right: 33px;
+    }
+    .story-img2 {
+        padding-top: 15px;
+        margin-left: -62px;
+        margin-right: 90px;
     }
 
     .mission-box {
-        width: 910px;
-        margin: auto;
+        width: 678px;
+    }
+    .mission-content {
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+    .mission-box h2 {
+        padding-right: 75px;
+    }
+    .mission-box p {
+        padding-top: 45px;
+    }
+    .mission-img img {
+        padding-top: 15px
     }
 
     .approach-box {
-        width: 910px;
+        width: 840px;
         margin: auto;
+        padding-top: 43px;
     }
-    
+    .approach-box h2 {
+        padding-right: 61px;
+    }
+    .approach-content {
+        padding-top: 15px;
+    }  
       
     
 
