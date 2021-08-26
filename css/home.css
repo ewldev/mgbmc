@@ -41,7 +41,7 @@ nav {
 } 
 .navbar-nav li a {
     margin: 2px;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 600;
     color: #002361 !important; 
 }    
@@ -208,11 +208,23 @@ footer h3 {
     /* }
 }     */
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 760px)  {
+    
+    body {
+        background-size: 768px;
+        background-position: center 448px;
+        background-repeat: no-repeat;
+    } 
+    
+    header h1 {
+        font-size: 24px;
+    }
+
     .navbar-nav li a {
         margin:  15px;
         letter-spacing: 1px;           
     }
+
     main {
         margin-left: 40px;
         margin-right: 40px;
@@ -292,6 +304,15 @@ footer h3 {
 
 @media screen and (min-width: 1020px) {
     
+    body {
+        background-size: 1024px;
+        background-position: center 18px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
     #home-carousel {
         max-width: 1440px;
         margin: auto;
@@ -331,7 +352,7 @@ footer h3 {
     .services-box {
         width: 910px;
         margin: auto;
-        margin-top: 19px; 
+        padding-top: 46px; 
         color: #002361;
         /* border: solid orange;     */
     }
@@ -352,7 +373,7 @@ footer h3 {
     .clients-box {
         width: 910px;
         margin: auto;
-        margin-top: 49px;
+        padding-top: 45px;
         color: #002361;
     }
     .clients-heading h2 {
@@ -395,10 +416,10 @@ footer h3 {
         width: 600px;
         margin: auto;
         color: #002361;
-        margin-top: 119px;
+        padding-top: 115px;
         text-align: center;
         background-image: url(../img/red-arrow.svg);
-        background-position: 85% 76%;
+        background-position: 84% 81%;
         background-size: 40px;
         background-repeat: no-repeat;
         /* border: solid orange;    */
@@ -459,6 +480,12 @@ footer h3 {
     } 
 
 @media screen and (min-width: 1440px) {
+    
+    body {
+        background-size: 1024px;
+        background-position: center 222px;
+    }
+
     nav a img {
         margin-left: 50px;
     }
