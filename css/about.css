@@ -81,8 +81,7 @@ nav {
 }
 .about-trust p {
     padding: 25px 15px 0 20px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 18px;    
     line-height: 30px;  
 }
 
@@ -108,7 +107,6 @@ nav {
 .story-content p {
     margin: 20px 25px;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30px;  
 }
 
@@ -124,7 +122,6 @@ nav {
     text-align: center;
     margin: 20px 15px;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30px;      
 }
 .mission-img {
@@ -146,7 +143,6 @@ nav {
     text-align: center;
     margin: 20px 15px;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30px;      
 }
 .approach-img {
@@ -208,14 +204,14 @@ footer h3 {
     
     body {
         background-size: 1000px;
-        background-position: center 110px;
+        background-position: center 255px;
         background-repeat: no-repeat;
     }
     
     header h1 {
         font-size: 24px;
     }
-    
+
     .navbar-nav li a {
         margin:  15px;
         letter-spacing: 1px;           
@@ -306,7 +302,7 @@ footer h3 {
     
     body {
         background-size: 1024px;
-        background-position: center 123px;
+        background-position: center 160px;
     }
 
     header h1 {
@@ -341,7 +337,7 @@ footer h3 {
         
     .story-box {
         width: 970px;
-        padding-top: 35px;
+        padding-top: 36px;
     }
     .story-box h2 {
         padding-right: 75px;
@@ -371,6 +367,7 @@ footer h3 {
 
     .mission-box {
         width: 678px;
+        margin-top: -32px;
     }
     .mission-content {
         margin-right: 20px;
@@ -389,7 +386,7 @@ footer h3 {
     .approach-box {
         width: 840px;
         margin: auto;
-        padding-top: 43px;
+        padding-top: 12px;
     }
     .approach-box h2 {
         padding-right: 61px;
