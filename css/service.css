@@ -60,23 +60,31 @@ header h1 {
 .services-title h2 {
     text-align: center; 
     font-weight: 600;
+    padding-top: 60px;
 }
 
 .branded-box {
-    margin: 50px auto;
-}
-.branded-title {
-    display: flex;
-}
-.branded-title h3 {
-    font-weight: 600;  
+    margin: 0 auto;
 }
 .branded-img {
-    margin: 20px 15px;
+    width: 343px;
+    margin: 20px auto    
 }
 .branded-img img {
     max-width: 100%;
 }
+.branded-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding: 10px 5px 20px;
+}
+.branded-title h3 {
+    font-weight: 600;  
+} 
+.branded-content p {
+    padding: 0 12px;
+}   
 
 .story-box {
     margin: 60px auto;
