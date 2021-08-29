@@ -2,6 +2,7 @@ const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
 const galleryControls = ['previous', 'add', 'next'];
 const galleryItems = document.querySelectorAll('.gallery-item');
+// const intervalID = 0;
 
 class Carousel {
   constructor(container, items, controls) {
@@ -25,18 +26,18 @@ class Carousel {
     });
   }
 
+  // https://stackoverflow.com/questions/2001920/calling-a-class-prototype-method-by-a-setinterval-event/2001955
+  changeSlide() {
+    this.intervalID = setInterval(this.setCurrentState.bind(this), 3000);
+    console.log('changeSlide', this.intervalID);    
+  }
   // Update the current order of the carouselArray and gallery
-  setCurrentState(direction) {
-
-    if (direction.className == 'gallery-controls-previous') {
-      this.carouselArray.unshift(this.carouselArray.pop());
-    } else {
-      this.carouselArray.push(this.carouselArray.shift());
-    }
-    
+  setCurrentState() {    
+    this.carouselArray.push(this.carouselArray.shift());    
     this.updateGallery();
   }
 
+  
   // Construct the carousel navigation
   // setNav() {
     // galleryContainer.appendChild(document.createElement('ul')).className = 'gallery-nav';
@@ -95,3 +96,15 @@ const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryCont
 exampleCarousel.setControls();
 // exampleCarousel.setNav();
 exampleCarousel.useControls();
+
+
+exampleCarousel.changeSlide();
+
+
+
+
+
+
+    
+
+
