@@ -64,7 +64,8 @@ header h1 {
 }
 
 .branded-img {
-    margin: 20px 15px;    
+    width: 343px;
+    margin: 20px auto;    
 }
 .branded-img img {
     max-width: 100%;
@@ -263,7 +264,7 @@ footer h3 {
 @media screen and (min-width: 760px)  {
     
     body {
-        background-size: 1000px;
+        background-size: 1445px;
         background-position: center 255px;
         background-repeat: no-repeat;
     }
@@ -277,63 +278,69 @@ footer h3 {
         letter-spacing: 1px;           
     }
     main {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 22px;
+        margin-right: 8px;
     }
-    .about-us {
-        display: flex;
-    }
-    .about-img {
-        flex: 0 0 450px;
-        margin-left: -15px;
-    }
-    .about-trust {
-        margin: 100px 0 0 -90px;
-    }
-    .about-trust p {
-        font-size: 20px;
-    }
-     
     
-    .story-content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .story-img1, .story-img2 {
-        flex: 0 1 300px;
-        margin-top: 30px;
-    }
-    .story1 {
-        flex: 0 1 408px;
-    }
-    .story1 h3 {
-        margin: 30px 0 0 0px;
-    }    
-    .story1 p {
-        margin: 20px 20px 0 0;
-    }
-    .story2 {
-        flex: 1 0 408px;
-    }
-    .story2 h3 {
-        margin: 30px 0 0 15px;
-    }    
-    .story2 p {
-        margin: 20px 0 0 15px;
+    .branded-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
     }
 
-    .mission-box p {
-       margin: 20px 45px;
+    .apparel-img {
+        width: 343px;
+        margin: 20px auto;    
     } 
+    .apparel-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
+    }
+
+    .award-img {
+        width: 385px;
+        margin: 20px auto;    
+    } 
+    .award-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
+    }
+
+    .trades-img {
+        width: 385px;
+        margin: 20px auto;    
+    } 
+    .trades-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
+    }
     
-    .approach-content {
-        display: flex;
+    .graphic-img {
+        width: 385px;
+        margin: 20px auto;    
+    } 
+    .graphic-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
     }
-    .approach-content p {
-        flex: 1 0 350px;
-        text-align: unset;
+
+    .warehouse-img {
+        width: 385px;
+        margin: 20px auto;    
+    } 
+    .warehouse-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
     }
+     
+     
+    
+    
     
     footer {
         align-items: center;
@@ -375,86 +382,46 @@ footer h3 {
         background-size: 990px;
         background-repeat: no-repeat;        
     }   
-    .about-box {
-        width: 992px;
-        padding-top: 23px;
+    
+    .story-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
-    .about-box h2 {
-        margin-right: 88px;
-    }
-    .about-img {
-        flex: 0 0 500px;
-        margin-left: -45px;
-        padding-top: 65px;
-    } 
-    .about-trust {
-        width: 510px;
-        margin-top: 150px;       
-    }
-    .about-trust p {
-        font-size: 22px;
-    }
-        
-    .story-box {
-        width: 970px;
-        padding-top: 36px;
-    }
-    .story-box h2 {
-        padding-right: 75px;
+    .story-img1, .story-img2 {
+        flex: 0 1 300px;
+        margin-top: 30px;
     }
     .story1 {
-        padding-top: 30px;
-        flex: 0 0 620px;        
+        flex: 0 1 408px;
     }
+    .story1 h3 {
+        margin: 30px 0 0 0px;
+    }    
     .story1 p {
-        padding-right: 72px;
-    }
-    .story-img1 {
-        padding-top: 25px;
+        margin: 20px 20px 0 0;
     }
     .story2 {
-        padding-top: 20px;
-        flex: 0 0 570px;   
+        flex: 1 0 408px;
     }
+    .story2 h3 {
+        margin: 30px 0 0 15px;
+    }    
     .story2 p {
-        padding-right: 33px;
-    }
-    .story-img2 {
-        padding-top: 15px;
-        margin-left: -62px;
-        margin-right: 90px;
+        margin: 20px 0 0 15px;
     }
 
-    .mission-box {
-        width: 678px;
-        margin-top: -32px;
-    }
-    .mission-content {
-        margin-right: 20px;
-        padding-right: 20px;
-    }
-    .mission-box h2 {
-        padding-right: 75px;
-    }
     .mission-box p {
-        padding-top: 45px;
-    }
-    .mission-img img {
-        padding-top: 15px
-    }
-
-    .approach-box {
-        width: 840px;
-        margin: auto;
-        padding-top: 12px;
-    }
-    .approach-box h2 {
-        padding-right: 61px;
-    }
+       margin: 20px 45px;
+    } 
+    
     .approach-content {
-        padding-top: 15px;
+        display: flex;
+    }
+    .approach-content p {
+        flex: 1 0 350px;
+        text-align: unset;
     }  
-      
     
 
     footer {
