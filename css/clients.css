@@ -1,0 +1,602 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+  
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    background-image: url(../img/home/background.jpg);
+    background-size: cover;
+    padding-top: 134px;
+    margin: 0;
+    color: #002361;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; 
+    z-index: 1030;
+}
+
+header .company {
+    background: #002D74;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 5px 10px 5px;    
+    margin-bottom: 0;
+}
+
+/* nav {
+    color: #002361;
+} */
+.navbar-nav {
+    margin: auto;
+} 
+.navbar-nav li a {
+    margin: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    /* color: #002361 !important;  */
+}    
+
+.brand-img {
+    margin-left: 10px;
+}
+
+#contact-info1 {
+    display: none;
+}
+
+.services-title h2 {
+    text-align: center; 
+    font-weight: 600;
+    padding-top: 60px;
+}
+
+.branded-img {
+    width: 343px;
+    margin: 20px auto;    
+}
+.branded-img img {
+    max-width: 100%;
+}
+.branded-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding: 10px 5px 20px;
+}
+.branded-title h3 {
+    font-weight: 600;  
+} 
+.branded-content h5 {
+    padding: 0 12px 8px;
+}
+.branded-content p {
+    padding: 0 12px;
+}  
+
+.apparel-box {
+    padding-top: 50px;
+}
+.apparel-img {
+    margin: 20px 15px;    
+} 
+.apparel-img img {
+    max-width: 100%;
+}
+.apparel-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding: 10px 5px 20px;
+}
+.apparel-title h3 {
+    font-weight: 600;  
+} 
+.apparel-content h5 {
+    padding: 0 12px 8px;
+}
+.apparel-content p {
+    padding: 0 12px;
+} 
+
+.award-box {
+    padding-top: 50px;
+}
+.award-img {
+    margin: 20px 15px;
+}
+.award-img img {
+    max-width: 100%;
+}
+.award-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding: 10px 5px 20px;
+}
+.award-title h3 {
+    font-weight: 600;  
+} 
+.award-content h5 {
+    padding: 0 12px 8px;
+}
+.award-content p {
+    padding: 0 12px;
+}  
+
+.trades-box {
+    padding-top: 50px;
+}
+.trades-img {
+    margin: 20px 15px;
+}
+.trades-img img {
+    max-width: 100%;
+}
+.trades-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding: 10px 5px 20px;
+}
+.trades-title h3 {
+    font-weight: 600;  
+} 
+.trades-content h5 {
+    padding: 0 12px 8px;
+}
+.trades-content p {
+    padding: 0 12px;
+}  
+
+.graphic-box {
+    padding-top: 50px;
+}
+.graphic-img {
+    margin: 20px 15px;
+}
+.graphic-img img {
+    max-width: 100%;
+}
+.graphic-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 5px 20px;
+}
+.graphic-title h3 {
+    font-weight: 600;  
+} 
+.graphic-content h5 {
+    padding: 0 12px 8px;
+}
+.graphic-content p {
+    padding: 0 12px;
+}  
+
+.warehouse-box {
+    padding-top: 50px;
+}
+.warehouse-img {
+    margin: 20px 15px;
+}
+.warehouse-img img {
+    max-width: 100%;
+}
+.warehouse-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding: 10px 5px 20px;
+}
+.warehouse-title h3 {
+    font-weight: 600;  
+} 
+.warehouse-content h5 {
+    padding: 0 12px 8px;
+}
+.warehouse-content p {
+    padding: 0 12px;
+}  
+
+
+
+footer {
+    margin-top: 50px;
+    background: #0D295D;
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;    
+}
+footer h3 {
+    margin: 18px 0;
+}
+.contact-info2 {
+    margin: 0 auto;
+}
+.name{
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.phone2 {
+    margin-top: 13px;
+}
+.white-logo {
+    margin: 20px auto 30px;
+}
+.white-logo img {
+    width: 140px;    
+}
+.location  {
+    display: none;
+}
+
+.copyright-bar {
+    background: #0C1B3F;
+    color: white;    
+}
+.copyright-bar p {
+    text-align: center;
+    font-style: italic;
+    padding: 12px;
+    margin-bottom: 0;
+} 
+
+/* @media screen and (min-width: 600px) {
+    nav .contact {  
+        order: 1; */
+         /*to make contact to be last flex item*/
+    /* }
+}     */
+
+@media screen and (min-width: 760px)  {
+    
+    body {
+        background-size: 1445px;
+        background-position: center 255px;
+        background-repeat: no-repeat;
+    }
+    
+    header h1 {
+        font-size: 24px;
+    }
+
+    .navbar-nav li a {
+        margin:  15px;
+        letter-spacing: 1px;           
+    }
+    main {
+        margin-left: 22px;
+        margin-right: 12px;
+    }
+    
+    .branded-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
+    }
+
+    .apparel-img {
+        width: 343px;
+        margin: 20px auto;    
+    } 
+    .apparel-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
+    }
+
+    .award-img {
+        width: 385px;
+        margin: 20px auto;    
+    } 
+    .award-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
+    }
+
+    .trades-img {
+        width: 385px;
+        margin: 20px auto;    
+    } 
+    .trades-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
+    }
+    
+    .graphic-img {
+        width: 385px;
+        margin: 20px auto;    
+    } 
+    .graphic-title {
+        width: 450px;
+        margin: auto;
+    }
+
+    .warehouse-img {
+        width: 385px;
+        margin: 20px auto;    
+    } 
+    .warehouse-title {
+        align-items:unset;
+        width: 450px;
+        margin: auto;
+    }
+     
+     
+    
+    
+    
+    footer {
+        align-items: center;
+    }
+    .white-logo img {
+         width: 180px;    
+     }
+    .location {
+        display:contents;
+        display: unset;
+        margin: 0 auto 20px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 992px) {
+    #contact-info1 {
+        display:contents;
+        display: unset;
+    }    
+}
+
+
+@media screen and (min-width: 1020px) {
+    
+    body {
+        background-size: 1145px;
+        background-position: center 76px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    main {
+        background-image: url(../img/services/redline.svg);   
+        background-position: center 95px;
+        background-size: 1050px;
+        background-repeat: no-repeat; 
+        margin: 0;       
+    }   
+    
+    .services-title h2 {
+        padding-left: 84px;
+        padding-top: 77px;
+    }
+    .branded-box {
+        width: 990px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .branded-img {
+        flex: 0 1 400px;
+        margin: 0;
+        padding-top: 65px;
+    }
+    .branded-content {
+        flex: 0 1 545px;
+        padding-top: 20px;
+    }
+    .branded-content h5 {
+        padding: 0 0 8px;
+    }
+    .branded-content p {
+        padding: 0;
+    }
+
+    .apparel-box {
+        width: 1008px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;       
+    }
+    .apparel-img {
+        flex: 0 1 400px;
+        margin: 0;
+        padding-top: 57px;
+        order: 1;
+    }
+    .apparel-content {
+        flex: 0 1 502px;
+        padding-right: 35px;
+    }
+    .apparel-content h5 {
+        padding: 0 0 8px;
+    }
+    .apparel-content p {
+        padding: 0;
+    }
+
+    .award-box {
+        width: 990px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .award-img {
+        flex: 0 1 400px;
+        margin: 0;
+        padding-top: 53px;        
+    }
+    .award-content {
+        flex: 0 1 485px;
+        padding: 23px 20px 0 36px;
+    }
+    .award-title {
+        align-items: flex-end;
+    }
+    .award-content h5 {
+        padding: 0 0 8px;
+    }
+    .award-content p {
+        padding: 0 4px 0 0;
+    }
+
+    .trades-box {
+        width: 1008px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .trades-img {
+        flex: 0 1 400px;
+        margin: 0;
+        padding-top: 64px;
+        order: 1;
+    }
+    .trades-content {
+        flex: 0 1 502px;
+        padding-top: 51px;
+        padding-right: 35px;
+    }
+    .trades-title {
+        margin: 0;
+    }
+    .trades-content h5 {
+        padding: 0 0 8px;
+    }
+    .trades-content p {
+        padding: 0;
+    }
+
+    .graphic-box {
+        width: 990px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .graphic-img {
+        flex: 0 1 400px;
+        margin: 0;
+        padding-top: 56px;        
+    }
+    .graphic-content {
+        flex: 0 1 485px;
+        padding: 25px 11px 0 39px
+    }
+    .graphic-title {
+        align-items: center;
+    }
+    .graphic-content h5 {
+        padding: 0 0 8px;
+    }
+    .graphic-content p {
+        padding: 0 4px 0 0;
+    }
+
+    .warehouse-box {
+        width: 1008px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .warehouse-img {
+        flex: 0 1 400px;
+        order: 1;
+        margin: 0;        
+        padding-top: 20px;
+    }
+    .warehouse-content {
+        flex: 0 1 502px;
+        padding: 15px 35px 48px 0;
+    }
+    .warehouse-title {
+        align-items: flex-end;
+        margin: 0;
+    }
+    .warehouse-content h5 {
+        padding: 0 0 8px;
+    }
+    .warehouse-content p {
+        padding: 0;
+    }    
+
+    footer {
+        height: 280px;
+        margin-top: 100px;
+        background: #0D295D;
+        color: white;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .contact-info2 {
+        padding-bottom: 32px;
+    }
+    /* footer .name{
+        margin-top: -15px;
+        margin-bottom: 20px;
+    } */
+    .phone2 {
+        margin-top: 13px;
+    }
+    .location h3 {
+        margin-bottom: 8px;
+
+    }
+
+    .copyright-bar {
+        background: #0C1B3F;
+        color: white;    
+    }
+    .copyright-bar p {
+        height: 50px;
+        text-align: center;
+        font-style: italic;
+        padding-top: 12px;
+        margin-bottom: 0;
+    } 
+
+@media screen and (min-width: 1440px) {
+    nav a img {
+        margin-left: 50px;
+    }
+
+    .navbar-nav li a {
+        margin: 0 30px;
+        letter-spacing: 2px;           
+    }
+
+    #contact-info1 {
+        margin-right: 50px;
+    }
+}    
+
+@media screen and (min-width: 1920px) {
+    nav a img {
+        width: 135px;
+        margin-left: 230px;
+    }
+    
+    #contact-info1 {
+        margin-right: 230px;
+    }
+} 
+
+}        
+
