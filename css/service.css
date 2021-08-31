@@ -367,8 +367,8 @@ footer h3 {
 @media screen and (min-width: 1020px) {
     
     body {
-        background-size: 1024px;
-        background-position: center 160px;
+        background-size: 1145px;
+        background-position: center 73px;
     }
 
     header h1 {
@@ -396,7 +396,7 @@ footer h3 {
     .branded-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 45px;
+        padding-top: 65px;
     }
     .branded-content {
         flex: 0 1 545px;
@@ -413,17 +413,16 @@ footer h3 {
         width: 1008px;
         margin: auto;
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-end;       
     }
     .apparel-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 60px;
+        padding-top: 57px;
         order: 1;
     }
     .apparel-content {
         flex: 0 1 502px;
-        padding-top: 45px;
         padding-right: 35px;
     }
     .apparel-content h5 {
@@ -442,11 +441,11 @@ footer h3 {
     .award-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 90px;        
+        padding-top: 53px;        
     }
     .award-content {
         flex: 0 1 485px;
-        padding: 81px 20px 0 36px;
+        padding: 23px 20px 0 36px;
     }
     .award-title {
         align-items: flex-end;
@@ -467,12 +466,12 @@ footer h3 {
     .trades-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 88px;
+        padding-top: 64px;
         order: 1;
     }
     .trades-content {
         flex: 0 1 502px;
-        padding-top: 79px;
+        padding-top: 51px;
         padding-right: 35px;
     }
     .trades-title {
@@ -494,11 +493,11 @@ footer h3 {
     .graphic-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 90px;        
+        padding-top: 56px;        
     }
     .graphic-content {
         flex: 0 1 485px;
-        padding: 65px 11px 0 39px
+        padding: 25px 11px 0 39px
     }
     .graphic-title {
         align-items: center;
@@ -519,12 +518,10 @@ footer h3 {
     .warehouse-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 88px;
         order: 1;
     }
     .warehouse-content {
         flex: 0 1 502px;
-        padding-top: 79px;
         padding-right: 35px;
     }
     .warehouse-title {
