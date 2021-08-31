@@ -378,7 +378,7 @@ footer h3 {
 
     main {
         background-image: url(../img/services/redline.svg);   
-        background-position: center 75px;
+        background-position: center 95px;
         background-size: 1050px;
         background-repeat: no-repeat; 
         margin: 0;       
@@ -386,6 +386,7 @@ footer h3 {
     
     .services-title h2 {
         padding-left: 84px;
+        padding-top: 77px;
     }
     .branded-box {
         width: 990px;
@@ -408,6 +409,33 @@ footer h3 {
     .branded-content p {
         padding: 0;
     }
+
+    .apparel-box {
+        width: 1008px;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .apparel-img {
+        flex: 0 1 400px;
+        margin: 0;
+        padding-top: 60px;
+        order: 1;
+    }
+    .apparel-content {
+        flex: 0 1 502px;
+        padding-top: 45px;
+        padding-right: 35px;
+    }
+    .apparel-content h5 {
+        padding: 0 0 8px;
+    }
+    .apparel-content p {
+        padding: 0;
+    }
+
+
+
 
 
 
