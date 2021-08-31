@@ -388,7 +388,7 @@ footer h3 {
         padding-left: 84px;
     }
     .branded-box {
-        width: 980px;
+        width: 990px;
         margin: auto;
         display: flex;
         justify-content: space-between;
@@ -400,6 +400,7 @@ footer h3 {
     }
     .branded-content {
         flex: 0 1 545px;
+        padding-top: 20px;
     }
     .branded-content h5 {
         padding: 0 0 8px;
