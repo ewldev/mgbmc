@@ -406,13 +406,13 @@ footer h3 {
         justify-content:space-around;
         align-items: center;
     }
-    footer h3 {
-        margin-bottom: 18px;
+    .contact-info2 {
+        padding-bottom: 32px;
     }
-    footer .name{
+    /* footer .name{
         margin-top: -15px;
         margin-bottom: 20px;
-    }
+    } */
     .phone2 {
         margin-top: 13px;
     }
