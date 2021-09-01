@@ -57,161 +57,39 @@ header h1 {
     display: none;
 }
 
-.services-title h2 {
-    text-align: center; 
+.clients-box {
+    padding-top: 53px; 
+}
+.clients-heading h2 {
+    text-align: center;
     font-weight: 600;
-    padding-top: 60px;
 }
-
-.branded-img {
-    width: 343px;
-    margin: 20px auto;    
-}
-.branded-img img {
-    max-width: 100%;
-}
-.branded-title {
+.client-logos {
+    padding-top: 40px;  
     display: flex;
-    justify-content: space-evenly;
-    align-items:flex-end;
-    padding: 10px 5px 20px;
+    justify-content: space-evenly;    
+    flex-wrap: wrap;
 }
-.branded-title h3 {
-    font-weight: 600;  
-} 
-.branded-content h5 {
-    padding: 0 12px 8px;
+.client-logos img {
+    margin: 16px;
+    width: 128px;
 }
-.branded-content p {
-    padding: 0 12px;
-}  
-
-.apparel-box {
-    padding-top: 50px;
+.testimonial-box {
+    margin-top: 40px;
+    background-image: url(../img/red-arrow.svg);
+    background-position: 100% 0%;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    /* border: solid orangered;    */
 }
-.apparel-img {
-    margin: 20px 15px;    
-} 
-.apparel-img img {
-    max-width: 100%;
+.testimonial-heading h2 {
+    text-align: center;
+    font-weight: 600;
 }
-.apparel-title {
-    display: flex;
-    justify-content: space-evenly;
-    align-items:flex-end;
-    padding: 10px 5px 20px;
+.testimonial-carousel {
+    padding-top: 10px;
+    z-index: -1;
 }
-.apparel-title h3 {
-    font-weight: 600;  
-} 
-.apparel-content h5 {
-    padding: 0 12px 8px;
-}
-.apparel-content p {
-    padding: 0 12px;
-} 
-
-.award-box {
-    padding-top: 50px;
-}
-.award-img {
-    margin: 20px 15px;
-}
-.award-img img {
-    max-width: 100%;
-}
-.award-title {
-    display: flex;
-    justify-content: space-evenly;
-    align-items:flex-end;
-    padding: 10px 5px 20px;
-}
-.award-title h3 {
-    font-weight: 600;  
-} 
-.award-content h5 {
-    padding: 0 12px 8px;
-}
-.award-content p {
-    padding: 0 12px;
-}  
-
-.trades-box {
-    padding-top: 50px;
-}
-.trades-img {
-    margin: 20px 15px;
-}
-.trades-img img {
-    max-width: 100%;
-}
-.trades-title {
-    display: flex;
-    justify-content: space-evenly;
-    align-items:flex-end;
-    padding: 10px 5px 20px;
-}
-.trades-title h3 {
-    font-weight: 600;  
-} 
-.trades-content h5 {
-    padding: 0 12px 8px;
-}
-.trades-content p {
-    padding: 0 12px;
-}  
-
-.graphic-box {
-    padding-top: 50px;
-}
-.graphic-img {
-    margin: 20px 15px;
-}
-.graphic-img img {
-    max-width: 100%;
-}
-.graphic-title {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px 5px 20px;
-}
-.graphic-title h3 {
-    font-weight: 600;  
-} 
-.graphic-content h5 {
-    padding: 0 12px 8px;
-}
-.graphic-content p {
-    padding: 0 12px;
-}  
-
-.warehouse-box {
-    padding-top: 50px;
-}
-.warehouse-img {
-    margin: 20px 15px;
-}
-.warehouse-img img {
-    max-width: 100%;
-}
-.warehouse-title {
-    display: flex;
-    justify-content: space-evenly;
-    align-items:flex-end;
-    padding: 10px 5px 20px;
-}
-.warehouse-title h3 {
-    font-weight: 600;  
-} 
-.warehouse-content h5 {
-    padding: 0 12px 8px;
-}
-.warehouse-content p {
-    padding: 0 12px;
-}  
-
-
 
 footer {
     margin-top: 50px;
@@ -282,61 +160,14 @@ footer h3 {
         margin-right: 12px;
     }
     
-    .branded-title {
-        align-items:unset;
-        width: 450px;
-        margin: auto;
+    .clients-box {
+        width: 700px;
+        margin: 50px auto;
     }
-
-    .apparel-img {
-        width: 343px;
-        margin: 20px auto;    
-    } 
-    .apparel-title {
-        align-items:unset;
-        width: 450px;
-        margin: auto;
+    .client-logos {
+        margin-top: 50px;
     }
-
-    .award-img {
-        width: 385px;
-        margin: 20px auto;    
-    } 
-    .award-title {
-        align-items:unset;
-        width: 450px;
-        margin: auto;
-    }
-
-    .trades-img {
-        width: 385px;
-        margin: 20px auto;    
-    } 
-    .trades-title {
-        align-items:unset;
-        width: 450px;
-        margin: auto;
-    }
-    
-    .graphic-img {
-        width: 385px;
-        margin: 20px auto;    
-    } 
-    .graphic-title {
-        width: 450px;
-        margin: auto;
-    }
-
-    .warehouse-img {
-        width: 385px;
-        margin: 20px auto;    
-    } 
-    .warehouse-title {
-        align-items:unset;
-        width: 450px;
-        margin: auto;
-    }
-     
+   
      
     
     
@@ -376,165 +207,60 @@ footer h3 {
     }
 
     main {
-        background-image: url(../img/services/redline.svg);   
+        background-image: url(../img/clients/redline.svg);   
         background-position: center 95px;
         background-size: 1050px;
         background-repeat: no-repeat; 
         margin: 0;       
     }   
     
-    .services-title h2 {
-        padding-left: 84px;
-        padding-top: 77px;
-    }
-    .branded-box {
-        width: 990px;
+    .clients-box {
+        width: 910px;
         margin: auto;
-        display: flex;
-        justify-content: space-between;
+        padding-top: 45px;
     }
-    .branded-img {
-        flex: 0 1 400px;
-        margin: 0;
-        padding-top: 65px;
+    .clients-heading h2 {
+        text-align: center;
+        margin-left: 62px;
+        font-weight: 600;
+        letter-spacing: 2px;
     }
-    .branded-content {
-        flex: 0 1 545px;
-        padding-top: 20px;
+    .client-logos img {
+        margin: 20px;
     }
-    .branded-content h5 {
-        padding: 0 0 8px;
-    }
-    .branded-content p {
-        padding: 0;
+    .client-logos {
+        margin-top: 80px;
+        margin-left: 70px;
+        /* border: solid orange;     */
     }
 
-    .apparel-box {
-        width: 1008px;
+    .testimonial-box {
+        width: 928px;
+        /* height: 1000px; */
         margin: auto;
-        display: flex;
-        justify-content: flex-end;       
+        margin-top: 57px;
+        background-image: url(../img/home/testimonials/testimonial-bg.svg);
+        background-position: 100% 0%;
+        background-size: 860px;
+        background-repeat: no-repeat;
+        /* border: solid orangered;    */
     }
-    .apparel-img {
-        flex: 0 1 400px;
-        margin: 0;
-        padding-top: 57px;
-        order: 1;
+    .testimonial-heading h2 {
+        text-align: center;
+        margin-left: 62px;
+        font-weight: 600;
+        letter-spacing: 2px;
     }
-    .apparel-content {
-        flex: 0 1 502px;
-        padding-right: 35px;
-    }
-    .apparel-content h5 {
-        padding: 0 0 8px;
-    }
-    .apparel-content p {
-        padding: 0;
+    .testimonial-carousel {
+        width: 52%;
+        margin-left: auto;
+        margin-right: 27px;
+        padding-top: 10px;
+        z-index: -1;
+        /* border: solid orange;    */
     }
 
-    .award-box {
-        width: 990px;
-        margin: auto;
-        display: flex;
-        justify-content: flex-end;
-    }
-    .award-img {
-        flex: 0 1 400px;
-        margin: 0;
-        padding-top: 53px;        
-    }
-    .award-content {
-        flex: 0 1 485px;
-        padding: 23px 20px 0 36px;
-    }
-    .award-title {
-        align-items: flex-end;
-    }
-    .award-content h5 {
-        padding: 0 0 8px;
-    }
-    .award-content p {
-        padding: 0 4px 0 0;
-    }
-
-    .trades-box {
-        width: 1008px;
-        margin: auto;
-        display: flex;
-        justify-content: flex-end;
-    }
-    .trades-img {
-        flex: 0 1 400px;
-        margin: 0;
-        padding-top: 64px;
-        order: 1;
-    }
-    .trades-content {
-        flex: 0 1 502px;
-        padding-top: 51px;
-        padding-right: 35px;
-    }
-    .trades-title {
-        margin: 0;
-    }
-    .trades-content h5 {
-        padding: 0 0 8px;
-    }
-    .trades-content p {
-        padding: 0;
-    }
-
-    .graphic-box {
-        width: 990px;
-        margin: auto;
-        display: flex;
-        justify-content: flex-end;
-    }
-    .graphic-img {
-        flex: 0 1 400px;
-        margin: 0;
-        padding-top: 56px;        
-    }
-    .graphic-content {
-        flex: 0 1 485px;
-        padding: 25px 11px 0 39px
-    }
-    .graphic-title {
-        align-items: center;
-    }
-    .graphic-content h5 {
-        padding: 0 0 8px;
-    }
-    .graphic-content p {
-        padding: 0 4px 0 0;
-    }
-
-    .warehouse-box {
-        width: 1008px;
-        margin: auto;
-        display: flex;
-        justify-content: flex-end;
-    }
-    .warehouse-img {
-        flex: 0 1 400px;
-        order: 1;
-        margin: 0;        
-        padding-top: 20px;
-    }
-    .warehouse-content {
-        flex: 0 1 502px;
-        padding: 15px 35px 48px 0;
-    }
-    .warehouse-title {
-        align-items: flex-end;
-        margin: 0;
-    }
-    .warehouse-content h5 {
-        padding: 0 0 8px;
-    }
-    .warehouse-content p {
-        padding: 0;
-    }    
+    
 
     footer {
         height: 280px;
