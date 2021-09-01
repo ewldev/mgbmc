@@ -128,7 +128,9 @@ main {
     background-repeat: no-repeat;
     /* border: solid orangered;    */
 }
-
+#carousel-large {
+    display: none;
+} 
 .testimonial-carousel {
     padding-top: 10px;
     z-index: -1;
@@ -393,19 +395,25 @@ footer h3 {
 
     .testimonial-box {
         width: 928px;
-        /* height: 1000px; */
         margin: auto;
         margin-top: 57px;
-        background-image: url(../img/home/testimonials/testimonial-bg.svg);
+        background-image: url(../img/red-arrow.svg);
+        background-position: 100% 15%;
+        background-size: 110px;
+        background-repeat: no-repeat;
+        /* background-image: url(../img/home/testimonials/testimonial-bg.svg);
         background-position: 100% 0%;
         background-size: 860px;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
         /* border: solid orangered;    */
     }
-
+    #carousel-small {
+        display: none;
+    }
+    #carousel-large {
+        display: unset;
+    }    
     .testimonial-carousel {
-        width: 52%;
-        margin-left: auto;
         margin-right: 27px;
         padding-top: 10px;
         z-index: -1;
