@@ -58,14 +58,14 @@ header h1 {
 }
 
 .clients-box {
-    padding-top: 53px; 
+    padding-top: 77px; 
 }
 .clients-heading h2 {
     text-align: center;
     font-weight: 600;
 }
 .client-logos {
-    padding-top: 40px;  
+    padding-top: 21px;  
     display: flex;
     justify-content: space-evenly;    
     flex-wrap: wrap;
@@ -75,22 +75,22 @@ header h1 {
     width: 128px;
 }
 .testimonial-box {
-    margin-top: 40px;
     background-image: url(../img/red-arrow.svg);
-    background-position: 100% 0%;
-    background-size: 60px;
+    background-position: 100% 57px;
+    background-size: 21%;
     background-repeat: no-repeat;
+    margin: 70px 0;
     /* border: solid orangered;    */
 }
 .testimonial-heading h2 {
     text-align: center;
-    font-weight: 600;
+    font-weight: 600;    
 }
 #carousel-large {
     display: none;
 } 
 .testimonial-carousel {
-    padding-top: 10px;
+    padding: 22px 0 0;    
     z-index: -1;
 }
 
@@ -158,22 +158,24 @@ footer h3 {
         margin:  15px;
         letter-spacing: 1px;           
     }
-    main {
-        margin-left: 22px;
-        margin-right: 12px;
-    }
     
     .clients-box {
         width: 700px;
-        margin: 50px auto;
+        margin: auto;
     }
-    .client-logos {
-        margin-top: 50px;
+    .client-logos img {
+        margin: 20px;
+        width: 150px;
     }
-   
-     
-    
-    
+
+    .testimonial-box {
+        width: 600px;
+        margin: 70px auto;
+    }
+    #carousel-small {
+        width: 590px;
+        margin: auto;
+    }  
     
     footer {
         align-items: center;
