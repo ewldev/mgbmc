@@ -164,8 +164,8 @@ footer h3 {
         margin: auto;
     }
     .client-logos img {
-        margin: 20px;
         width: 150px;
+        margin: 20px;        
     }
 
     .testimonial-box {
@@ -213,38 +213,37 @@ footer h3 {
 
     main {
         background-image: url(../img/clients/redline.svg);   
-        background-position: center 95px;
-        background-size: 1050px;
+        background-position: center 92px;
+        background-size: 1000px;
         background-repeat: no-repeat; 
         margin: 0;       
     }   
     
     .clients-box {
-        width: 910px;
-        margin: auto;
-        padding-top: 45px;
+        width: 895px;
     }
     .clients-heading h2 {
         text-align: center;
-        margin-left: 62px;
+        margin-right: 68px;
         font-weight: 600;
         letter-spacing: 2px;
+    }    
+    .client-logos {
+        margin-top: 35px;
+        margin-right: 66px;        
+        /* border: solid orange;     */
     }
     .client-logos img {
-        margin: 20px;
-    }
-    .client-logos {
-        margin-top: 80px;
-        margin-left: 70px;
-        /* border: solid orange;     */
+        width: 185px;
+        margin: 17px 34px;
     }
 
     .testimonial-box {
-        width: 928px;
+        width: 970px;
         margin: auto;
-        margin-top: 57px;
+        margin-top: 132px;
         background-image: url(../img/red-arrow.svg);
-        background-position: 100% 15%;
+        background-position: 88% 25%;
         background-size: 110px;
         background-repeat: no-repeat;
 
@@ -256,7 +255,7 @@ footer h3 {
     }
     .testimonial-heading h2 {
         text-align: center;
-        margin-left: 62px;
+        margin-right: 70px;
         font-weight: 600;
         letter-spacing: 2px;
     }
@@ -267,8 +266,9 @@ footer h3 {
         display: unset;
     }
     .testimonial-carousel {
-        margin-right: 27px;
-        padding-top: 10px;
+        width: 863px;
+        margin-right: auto;
+        padding-top: 38px;
         z-index: -1;
         /* border: solid orange;    */
     }
