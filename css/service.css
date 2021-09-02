@@ -377,7 +377,7 @@ footer h3 {
 
     main {
         background-image: url(../img/services/redline.svg);   
-        background-position: center 95px;
+        background-position: center 91px;
         background-size: 1050px;
         background-repeat: no-repeat; 
         margin: 0;       
@@ -412,6 +412,7 @@ footer h3 {
     .apparel-box {
         width: 1008px;
         margin: auto;
+        padding-top: 70px;
         display: flex;
         justify-content: flex-end;       
     }
