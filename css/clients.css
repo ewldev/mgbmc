@@ -36,9 +36,6 @@ header h1 {
     margin-bottom: 0;
 }
 
-/* nav {
-    color: #002361;
-} */
 .navbar-nav {
     margin: auto;
 } 
@@ -76,7 +73,7 @@ header h1 {
 }
 .testimonial-box {
     background-image: url(../img/red-arrow.svg);
-    background-position: 100% 57px;
+    background-position: 99% 57px;
     background-size: 21%;
     background-repeat: no-repeat;
     margin: 70px 0;
@@ -172,11 +169,7 @@ footer h3 {
         width: 600px;
         margin: 70px auto;
     }
-    /* #carousel-small {
-        width: 590px;
-        margin: auto;
-    }   */
-    
+        
     footer {
         align-items: center;
     }
@@ -267,7 +260,6 @@ footer h3 {
     }
     .testimonial-carousel {
         width: 863px;
-        margin-right: auto;
         padding-top: 38px;
         z-index: -1;
         /* border: solid orange;    */

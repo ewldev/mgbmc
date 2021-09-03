@@ -13,6 +13,7 @@ body {
     background-size: cover;
     padding-top: 134px;
     margin: 0;
+    color: #002361
 }
 
 header {
@@ -33,9 +34,6 @@ header h1 {
     margin-bottom: 0;
 }
 
-nav {
-    color: #002361;
-}
 .navbar-nav {
     margin: auto;
 } 
@@ -53,13 +51,8 @@ nav {
     display: none;
 }
 
-main {
-    margin-left: 12px;
-    margin-right: 12px;
-}
 .about-box {
-    margin-top: 35px;
-    color: #002361;        
+    margin: 35px 12px 0;   
 }
 .about-heading h2, .about-heading p {
     text-align: center; 
@@ -84,11 +77,9 @@ main {
 .about-img img {
     width: 300px;
 }
+
 .services-box {
-    margin-top: 70px;
-    margin-left: -12px;
-    margin-right: -12px; 
-    color: #002361;
+    margin: 70px 12px 0;      
 }
 .services-heading h2, .services-heading p {
     text-align: center;
@@ -104,28 +95,25 @@ main {
 }
 
 .clients-box {
-    margin: 20px auto;
-    color: #002361; 
+    margin: 20px 12px;    
 }
 .clients-heading h2 {
     text-align: center;
     font-weight: 600;
 }
 .client-logos {
-    margin-top: 40px;
-    margin-left: -12px;
-    margin-right: -12px;        
+    margin: 40px 12px 0;      
 }
 .client-logos img {
     margin: 0 6px;
 }
 
-.testimonial-box {
-    margin-top: 40px;
+.testimonial-box {       
     background-image: url(../img/red-arrow.svg);
-    background-position: 100% 0%;
-    background-size: 60px;
+    background-position: 99% 10px;
+    background-size: 21%;
     background-repeat: no-repeat;
+    margin-top: 40px;        
     /* border: solid orangered;    */
 }
 #carousel-large {
@@ -137,7 +125,7 @@ main {
 }
 
 .contact-us-box {
-    margin-top: 70px;
+    margin: 70px 12px 0;
     text-align: center;
     background-image: url(../img/red-arrow.svg);
     background-position: 80% 81%;
@@ -147,8 +135,7 @@ main {
 }
 .contact-us-box a {
     color: #002361;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 .contact-us-box h2 {
     font-weight: 700;
@@ -214,7 +201,7 @@ footer h3 {
     
     body {
         background-size: 768px;
-        background-position: center 448px;
+        background-position: center 513px;
         background-repeat: no-repeat;
     } 
     
@@ -263,14 +250,18 @@ footer h3 {
 
     .clients-box {
         width: 700px;
-        margin: 50px auto;
-        color: #002361; 
+        margin: 50px auto;        
     }
     .client-logos {
         margin-top: 50px;
     }
     .client-logos img {
         margin: 0 6px;
+    }
+
+    .testimonial-box {
+        width: 600px;
+        margin: 70px auto;
     }
 
     .contact-us-box {
@@ -329,8 +320,7 @@ footer h3 {
     .about-box {
         width: 910px;
         margin: auto; 
-        padding-top: 79px;
-        color: #002361;        
+        padding-top: 79px;            
     }
     .about-heading h2, .about-heading p {
         text-align: center;
@@ -354,8 +344,7 @@ footer h3 {
     .services-box {
         width: 910px;
         margin: auto;
-        padding-top: 46px; 
-        color: #002361;
+        padding-top: 50px;         
         /* border: solid orange;     */
     }
     .services-heading h2, .services-heading p {
@@ -375,8 +364,7 @@ footer h3 {
     .clients-box {
         width: 910px;
         margin: auto;
-        padding-top: 45px;
-        color: #002361;
+        padding-top: 44px;        
     }
     .clients-heading h2 {
         text-align: center;
@@ -396,15 +384,10 @@ footer h3 {
     .testimonial-box {
         width: 928px;
         margin: auto;
-        margin-top: 57px;
         background-image: url(../img/red-arrow.svg);
-        background-position: 100% 15%;
+        background-position: 100% 24%;
         background-size: 110px;
         background-repeat: no-repeat;
-        /* background-image: url(../img/home/testimonials/testimonial-bg.svg);
-        background-position: 100% 0%;
-        background-size: 860px;
-        background-repeat: no-repeat; */
         /* border: solid orangered;    */
     }
     #carousel-small {
@@ -414,17 +397,17 @@ footer h3 {
         display: unset;
     }    
     .testimonial-carousel {
-        margin-right: 27px;
-        padding-top: 10px;
+        width: 868px;
+        margin-left: auto;
+        padding-top: 74px;
         z-index: -1;
         /* border: solid orange;    */
     }
 
     .contact-us-box {
         width: 600px;
-        margin: auto;
-        color: #002361;
-        padding-top: 115px;
+        margin: auto;       
+        padding-top: 96px;
         text-align: center;
         background-image: url(../img/red-arrow.svg);
         background-position: 84% 81%;
