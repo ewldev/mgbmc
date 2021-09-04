@@ -65,7 +65,7 @@ main h2 {
 }
 
 .contact-img {
-    width: 300px;
+    width: 250px;
     margin: auto;
     padding-left: 2%;
 }
@@ -73,21 +73,27 @@ main h2 {
     padding-left: 3%;
 }
 .contact-img img {
-    width: 300px;
+    width: 250px;
 }
 .reach-us-content h3 {
-    padding-top: 43px;
+    padding-top: 58px;
     padding-bottom: 12px;
-    width: 250px;
+    width: 240px;
     margin: auto;
 }
 .reach-us-info {
-    width: 250px;
+    width: 213px;
     margin: auto;
     padding-top: 13px;
 }
 .location {
     width: 320px;
+    margin: auto;
+}
+.location h4 {
+    padding-top: 21px;
+    padding-bottom: 12px;
+    width: 240px;
     margin: auto;
 }
 
