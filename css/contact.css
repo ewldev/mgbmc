@@ -191,6 +191,7 @@ footer h3 {
      }
     .copyright-bar p {
          padding: 12px 35px;
+    }     
 }
 
 
@@ -216,7 +217,7 @@ footer h3 {
     main {
         background-image: url(../img/contact/redline.svg);   
         background-position: center 92px;
-        background-size: 1269px;
+        background-size: 1258px;
         background-repeat: no-repeat; 
         margin: 0;     
     }
@@ -264,6 +265,7 @@ footer h3 {
         padding-top: 12px;
         margin-bottom: 0;
     } 
+}
 
 @media screen and (min-width: 1440px) {
     nav a img {
@@ -291,5 +293,5 @@ footer h3 {
     }
 } 
 
-}        
+        
 
