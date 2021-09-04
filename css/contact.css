@@ -173,7 +173,7 @@ footer h3 {
         display: unset;
     }
     .location-lg h4 {
-        padding-top: 70px;
+        padding-top: 53px;
         padding-bottom: 12px;
         width: unset;
     }
@@ -196,7 +196,7 @@ footer h3 {
 
 @media screen and (min-width: 992px) {
     #contact-info1 {
-        display:contents;
+        /* display:contents; */
         display: unset;
     }    
 }
@@ -205,8 +205,8 @@ footer h3 {
 @media screen and (min-width: 1020px) {
     
     body {
-        background-size: 1145px;
-        background-position: center 76px;
+        background-size: 1245px; 
+        background-position: center 139px;
     }
 
     header h1 {
@@ -214,28 +214,37 @@ footer h3 {
     }
 
     main {
-        background-image: url(../img/clients/redline.svg);   
+        background-image: url(../img/contact/redline.svg);   
         background-position: center 92px;
-        background-size: 1000px;
+        background-size: 1269px;
         background-repeat: no-repeat; 
-        margin: 0;       
-    }   
-    
+        margin: 0;     
+    }
+    main h2 {
+        padding-top: 78px;
+        padding-left: 68px; 
+    }  
+       
     .contact-box {
-        width: 895px;
+        width: 819px;
+        margin: auto;
+        justify-content: space-around;
+        padding-top: 57px
     }
     
     footer {
-        height: 280px;
         margin-top: 100px;
         background: #0D295D;
         color: white;
         display: flex;
-        justify-content:space-around;
+        justify-content: space-evenly;
         align-items: center;
     }
     .contact-info2 {
-        padding-bottom: 32px;
+        margin: unset;
+    }
+    .white-logo {
+        margin: unset;
     }
     /* footer .name{
         margin-top: -15px;
