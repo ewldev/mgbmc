@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     font-size: 100%;
-    background-image: url(../img/home/background.jpg);
+    background-image: url(../img/clients/background.jpg);
     background-size: cover;
     padding-top: 134px;
     margin: 0;
@@ -142,8 +142,8 @@ footer h3 {
 @media screen and (min-width: 760px)  {
     
     body {
-        background-size: 1445px;
-        background-position: center 255px;
+        background-size: 835px;
+        background-position: center 0;
         background-repeat: no-repeat;
     }
     
@@ -196,8 +196,8 @@ footer h3 {
 @media screen and (min-width: 1020px) {
     
     body {
-        background-size: 1145px;
-        background-position: center 76px;
+        background-size: 1200px;
+        background-position: center -278px;
     }
 
     header h1 {
@@ -234,17 +234,11 @@ footer h3 {
     .testimonial-box {
         width: 970px;
         margin: auto;
-        margin-top: 132px;
+        margin-top: 186px;
         background-image: url(../img/red-arrow.svg);
         background-position: 88% 25%;
         background-size: 110px;
-        background-repeat: no-repeat;
-
-        /* background-image: url(../img/home/testimonials/testimonial-bg.svg);
-        background-position: 100% 0%;
-        background-size: 860px;
-        background-repeat: no-repeat; */        
-        /* border: solid orangered;    */
+        background-repeat: no-repeat;        
     }
     .testimonial-heading h2 {
         text-align: center;

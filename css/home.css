@@ -313,14 +313,14 @@ footer h3 {
 
     main {
         background-image: url(../img/home/redline.svg);   
-        background-position: center -10%;
-        background-size: 995px;
+        background-position: center -12px;
+        background-size: 994px;
         background-repeat: no-repeat;        
     }   
     .about-box {
         width: 910px;
         margin: auto; 
-        padding-top: 79px;            
+        padding-top: 88px;            
     }
     .about-heading h2, .about-heading p {
         text-align: center;
@@ -344,7 +344,7 @@ footer h3 {
     .services-box {
         width: 910px;
         margin: auto;
-        padding-top: 50px;         
+        padding-top: 46px;         
         /* border: solid orange;     */
     }
     .services-heading h2, .services-heading p {
@@ -364,7 +364,7 @@ footer h3 {
     .clients-box {
         width: 910px;
         margin: auto;
-        padding-top: 44px;        
+        padding-top: 42px;        
     }
     .clients-heading h2 {
         text-align: center;
@@ -399,7 +399,7 @@ footer h3 {
     .testimonial-carousel {
         width: 868px;
         margin-left: auto;
-        padding-top: 74px;
+        padding-top: 72px;
         z-index: -1;
         /* border: solid orange;    */
     }
