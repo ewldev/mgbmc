@@ -88,14 +88,11 @@ header h1 {
 .service-cards {
     width: 320px;    
     margin: auto;
-    margin-top: -30px;    
+    margin-top: -52px;    
 }
 .gallery-controls {
     display: none;
 }
-/* .service-cards img {
-    width: 320px;    
-} */
 
 .clients-box {
     margin: 20px 12px;    
@@ -344,12 +341,12 @@ footer h3 {
         width: 380px;
     }
       
-    .services-box {
+    /* .services-box {
         width: 910px;
         margin: auto;
         padding-top: 46px;         
-        /* border: solid orange;     */
-    }
+        border: solid orange;    
+    } */
     .services-heading h2, .services-heading p {
         text-align: center;
         margin-left: 62px;
@@ -359,6 +356,7 @@ footer h3 {
     .service-cards {
         width: 880px;
         margin: auto;
+        border: solid orangered;    
     }
     /* .service-cards img {
         width: 880px;
