@@ -282,9 +282,8 @@ footer h3 {
         display: unset;
         margin: 0 auto 20px;
     }
-    
-    
 }
+
 
 @media screen and (min-width: 992px) {
     #contact-info1 {
@@ -297,8 +296,8 @@ footer h3 {
 @media screen and (min-width: 1020px) {
     
     body {
-        background-size: 1024px;
-        background-position: center 18px;
+        background-size: 1153px;
+        background-position: center -138px;
     }
 
     header h1 {
@@ -356,12 +355,12 @@ footer h3 {
         padding-top: 29px;
         padding-left: 61px;
         /* border: solid orangered;     */
-    }    
+    } 
 
     .clients-box {
         width: 910px;
         margin: auto;
-        padding-top: 20px;        
+        padding-top: 13px;        
     }
     .clients-heading h2 {
         text-align: center;
@@ -452,7 +451,6 @@ footer h3 {
     }
     .location h3 {
         margin-bottom: 8px;
-
     }
 
     .copyright-bar {
@@ -466,14 +464,10 @@ footer h3 {
         padding-top: 12px;
         margin-bottom: 0;
     } 
+}
 
 @media screen and (min-width: 1440px) {
     
-    body {
-        background-size: 1024px;
-        background-position: center 222px;
-    }
-
     nav a img {
         margin-left: 50px;
     }
@@ -488,6 +482,7 @@ footer h3 {
     }
 }    
 
+
 @media screen and (min-width: 1920px) {
     nav a img {
         width: 135px;
@@ -499,5 +494,5 @@ footer h3 {
     }
 } 
 
-}        
+        
 
