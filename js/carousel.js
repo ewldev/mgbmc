@@ -29,7 +29,7 @@ class Carousel {
   // https://stackoverflow.com/questions/2001920/calling-a-class-prototype-method-by-a-setinterval-event/2001955
   changeSlide() {
     this.intervalID = setInterval(this.setCurrentState.bind(this), 5000);
-    console.log('changeSlide', this.intervalID);    
+    // console.log('changeSlide', this.intervalID);    
   }
   // Update the current order of the carouselArray and gallery
   setCurrentState() {    
