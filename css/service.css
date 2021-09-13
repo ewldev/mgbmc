@@ -97,7 +97,6 @@ header h1 {
 .apparel-title {
     display: flex;
     justify-content: space-evenly;
-    /* align-items:flex-end; */
     padding: 10px 5px 20px;
 }
 .apparel-title h3 {
@@ -197,7 +196,7 @@ header h1 {
 .warehouse-title {
     display: flex;
     justify-content: space-evenly;
-    align-items:flex-end;
+    align-items: center;
     padding: 10px 5px 20px;
 }
 .warehouse-title h3 {
@@ -209,8 +208,6 @@ header h1 {
 .warehouse-content p {
     padding: 0 12px;
 }  
-
-
 
 footer {
     margin-top: 50px;
@@ -335,14 +332,9 @@ footer h3 {
         margin: 20px auto;    
     } 
     .warehouse-title {
-        align-items:unset;
         width: 450px;
         margin: auto;
-    }
-     
-     
-    
-    
+    }    
     
     footer {
         align-items: center;
@@ -354,10 +346,9 @@ footer h3 {
         display:contents;
         display: unset;
         margin: 0 auto 20px;
-    }
-    
-    
+    }    
 }
+
 
 @media screen and (min-width: 992px) {
     #contact-info1 {
