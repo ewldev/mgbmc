@@ -97,7 +97,7 @@ header h1 {
 .clients-box {
     margin: 50px 12px;    
 }
-.clients-heading h2 {
+.clients-heading h2, .clients-heading p {
     text-align: center;
     font-weight: 600;
 }
@@ -239,7 +239,7 @@ footer h3 {
     .services-box {
         margin: 70px -40px;
     }
-    .services-heading {
+    .services-heading p {
         font-size: 18px;
     }   
     .service-cards {
@@ -250,6 +250,9 @@ footer h3 {
     .clients-box {
         width: 700px;
         margin: 50px auto;        
+    }
+    .clients-box p {
+        font-size: 18px;
     }
     .client-logos {
         margin-top: 50px;
@@ -362,7 +365,7 @@ footer h3 {
         margin: auto;
         padding-top: 13px;        
     }
-    .clients-heading h2 {
+    .clients-heading h2, .clients-heading p {
         text-align: center;
         margin-left: 62px;
         font-weight: 600;
