@@ -95,17 +95,17 @@ header h1 {
 }
 
 .clients-box {
-    margin: 50px 12px;    
+    margin: 50px 0px;    
 }
 .clients-heading h2, .clients-heading p {
     text-align: center;
     font-weight: 600;
 }
 .client-logos {
-    margin: 40px 12px 0;      
+    margin: 40px 5px 0;      
 }
 .client-logos img {
-    margin: 0 6px;
+    margin: 0 1px;
 }
 
 .testimonial-box {       
@@ -247,18 +247,14 @@ footer h3 {
         margin-top: -18px;       
     }
    
-    .clients-box {
-        width: 700px;
-        margin: 50px auto;        
-    }
     .clients-box p {
         font-size: 18px;
     }
-    .client-logos {
-        margin-top: 50px;
-    }
     .client-logos img {
-        margin: 0 6px;
+        margin: 0 4px;
+    }
+    .client-logos {
+        margin: 50px -20px 0;
     }
 
     .testimonial-box {
@@ -361,22 +357,21 @@ footer h3 {
     } 
 
     .clients-box {
-        width: 910px;
+        width: 960px;
         margin: auto;
         padding-top: 13px;        
     }
     .clients-heading h2, .clients-heading p {
         text-align: center;
-        margin-left: 62px;
+        margin-left: 50px;
         font-weight: 600;
         letter-spacing: 2px;
     }
     .client-logos img {
-        margin: 20px;
+        margin: 0 6px;
     }
     .client-logos {
-        margin-top: 80px;
-        margin-left: 70px;
+        margin-left: 55px;
         /* border: solid orange;     */
     }
 
