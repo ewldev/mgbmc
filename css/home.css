@@ -251,7 +251,7 @@ footer h3 {
         font-size: 18px;
     }
     .client-logos img {
-        margin: 0 4px;
+        margin: 0 5px;
     }
     .client-logos {
         margin: 50px -20px 0;
@@ -359,7 +359,7 @@ footer h3 {
     .clients-box {
         width: 960px;
         margin: auto;
-        padding-top: 13px;        
+        padding-top: 12px;        
     }
     .clients-heading h2, .clients-heading p {
         text-align: center;
@@ -371,7 +371,8 @@ footer h3 {
         margin: 0 6px;
     }
     .client-logos {
-        margin-left: 55px;
+        margin-top: 40px;
+        margin-left: 57px;
         /* border: solid orange;     */
     }
 
