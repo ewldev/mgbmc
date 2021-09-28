@@ -228,10 +228,11 @@ footer h3 {
         margin-left: -15px;
     }
     .about-trust {
-        margin: 100px 0 0 -90px;
+        margin: 67px 0 0 -7px;
     }
     .about-trust p {
         font-size: 20px;
+        padding: 25px 35px 0 20px;
     }
      
     
@@ -323,13 +324,14 @@ footer h3 {
         margin-right: 88px;
     }
     .about-img {
-        flex: 0 0 500px;
-        margin-left: -45px;
-        padding-top: 65px;
+        flex: 0 0 555px;
+        margin-left: -80px;
+        padding-top: 36px;
     } 
     .about-trust {
-        width: 510px;
-        margin-top: 150px;       
+        background-position: 100% 0%;
+        width: 325px;
+        margin: 133px 0 0 14px;     
     }
     .about-trust p {
         font-size: 22px;
