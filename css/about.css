@@ -13,6 +13,7 @@ body {
     background-size: cover;
     padding-top: 134px;
     margin: 0;
+    color: #002361;    
 }
 
 header {
@@ -35,9 +36,9 @@ header h1 {
     margin-bottom: 0;
 }
 
-nav {
+/* nav {
     color: #002361;
-}
+} */
 .navbar-nav {
     margin: auto;
 } 
@@ -57,9 +58,7 @@ nav {
 }
 
 .about-box {
-    margin: 50px auto;
-    color: #002361;  
-    
+    margin: 50px auto;      
 }
 .about-box h2 {
     text-align: center; 
@@ -75,25 +74,28 @@ nav {
     width: 300px;
     margin: 0 auto;
     background-image: url(../img/red-arrow.svg);
-    background-position: 98% 3%;
+    background-position: 92% 3%;
     background-size: 60px;
     background-repeat: no-repeat;   
 }
 .about-trust p {
-    padding: 25px 15px 0 20px;
+    padding: 25px 40px 0 38px;
     font-size: 18px;    
     line-height: 30px;  
 }
 
 .story-box {
     margin: 60px auto;
-    color: #002361;
 }
 .story-box h2 {
     text-align: center;
     font-weight: 600;
 }
-.story-img1, .story-img2 {
+.story-img1 {
+    width: 250px;
+    margin: auto;
+}
+.story-img2 {
     margin: 20px 15px;
 }
 .story-img1 img, .story-img2 img {
@@ -112,7 +114,6 @@ nav {
 
 .mission-box {
     margin: 80px auto;
-    color: #002361; 
 }
 .mission-box h2 {
     text-align: center;
@@ -133,7 +134,6 @@ nav {
 
 .approach-box {
     margin: 80px 0;
-    color: #002361;     
 }
 .approach-box h2 {
     text-align: center;
@@ -241,16 +241,18 @@ footer h3 {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .story-img1, .story-img2 {
+    .story-img1 {
+        flex: 0 1 250px;
+        margin-top: 30px;
+    }
+    .story-img2 {
         flex: 0 1 300px;
         margin-top: 30px;
     }
+
     .story1 {
         flex: 0 1 408px;
     }
-    .story1 h3 {
-        margin: 30px 0 0 0px;
-    }    
     .story1 p {
         margin: 20px 20px 0 0;
     }
@@ -318,7 +320,7 @@ footer h3 {
     }   
     .about-box {
         width: 992px;
-        padding-top: 23px;
+        padding-top: 22px;
     }
     .about-box h2 {
         margin-right: 88px;
@@ -339,7 +341,7 @@ footer h3 {
         
     .story-box {
         width: 970px;
-        padding-top: 36px;
+        padding-top: 23px;
     }
     .story-box h2 {
         padding-right: 75px;
@@ -349,7 +351,7 @@ footer h3 {
         flex: 0 0 620px;        
     }
     .story1 p {
-        padding-right: 72px;
+        padding-right: 90px;
     }
     .story-img1 {
         padding-top: 25px;
@@ -359,9 +361,10 @@ footer h3 {
         flex: 0 0 570px;   
     }
     .story2 p {
-        padding-right: 33px;
+        padding-right: 52px;
     }
     .story-img2 {
+        flex: 0 1 340px;
         padding-top: 15px;
         margin-left: -62px;
         margin-right: 90px;
@@ -369,7 +372,7 @@ footer h3 {
 
     .mission-box {
         width: 678px;
-        margin-top: -32px;
+        margin-top: -27px;
     }
     .mission-content {
         margin-right: 20px;
