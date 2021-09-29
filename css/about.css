@@ -139,7 +139,7 @@ header h1 {
     text-align: center;
     font-weight: 600;
 }
-.approach-box p {
+.approach-content p {
     text-align: center;
     margin: 20px 15px;
     font-size: 18px;
@@ -270,7 +270,7 @@ footer h3 {
         margin: 20px 45px;
     } 
     .mission-img {
-        width: 500px;
+        width: 450px;
         margin: auto;
     }
     
@@ -278,8 +278,12 @@ footer h3 {
         display: flex;
     }
     .approach-content p {
-        flex: 1 0 350px;
+        flex: 0 0 402px;
         text-align: unset;
+        margin: 20px 0px;
+    }
+    .approach-img {
+        margin: 19px -10px 0 18px;
     }
     
     footer {
@@ -309,7 +313,7 @@ footer h3 {
     
     body {
         background-size: 1080px;
-        background-position: center 55px;
+        background-position: center 33px;
     }
 
     header h1 {
@@ -368,7 +372,7 @@ footer h3 {
         padding-right: 65px;
     }
     .story-img2 {
-        flex: 0 1 340px;
+        flex: 0 1 350px;
         padding-top: 15px;
         margin-left: -62px;
         margin-right: 90px;
@@ -376,7 +380,7 @@ footer h3 {
 
     .mission-box {
         width: 678px;
-        margin-top: -27px;
+        margin-top: -34px;
     }
     .mission-content {
         margin-right: 20px;
@@ -393,18 +397,22 @@ footer h3 {
     }
 
     .approach-box {
-        width: 840px;
-        margin: -18px auto 0;
+        width: 934px;
+        margin: 97px auto 0;
     }
     .approach-box h2 {
         padding-right: 61px;
     }
     .approach-content {
         padding-top: 15px;
-    }  
-      
-    
-
+    }
+    .approach-content p {
+        flex: 0 0 510px;        
+    } 
+    .approach-img {
+        flex: 0 0 346px;
+    }
+     
     footer {
         height: 280px;
         margin-top: 100px;
