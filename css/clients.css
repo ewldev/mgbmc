@@ -55,28 +55,32 @@ header h1 {
 }
 
 .clients-box {
-    padding-top: 77px; 
+    padding-top: 76px; 
 }
 .clients-heading h2 {
     text-align: center;
     font-weight: 600;
 }
+.clients-heading p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 13px;
+}
 .client-logos {
-    padding-top: 21px;  
     display: flex;
     justify-content: space-evenly;    
     flex-wrap: wrap;
 }
 .client-logos img {
-    margin: 16px;
-    width: 128px;
+    margin: 2px;
+    width: 137px;
 }
 .testimonial-box {
     background-image: url(../img/red-arrow.svg);
     background-position: 99% 57px;
     background-size: 21%;
     background-repeat: no-repeat;
-    margin: 70px 0;
+    margin: 30px 0;
     /* border: solid orangered;    */
 }
 .testimonial-heading h2 {
@@ -142,8 +146,8 @@ footer h3 {
 @media screen and (min-width: 760px)  {
     
     body {
-        background-size: 835px;
-        background-position: center 0;
+        background-size: 1089px;
+        background-position: center 46px;
         background-repeat: no-repeat;
     }
     
@@ -167,7 +171,7 @@ footer h3 {
 
     .testimonial-box {
         width: 600px;
-        margin: 70px auto;
+        margin: 26px auto;
     }
         
     footer {
@@ -197,7 +201,7 @@ footer h3 {
     
     body {
         background-size: 1200px;
-        background-position: center -278px;
+        background-position: center -293px;
     }
 
     header h1 {
@@ -216,25 +220,28 @@ footer h3 {
         width: 895px;
     }
     .clients-heading h2 {
-        text-align: center;
         margin-right: 68px;
-        font-weight: 600;
         letter-spacing: 2px;
-    }    
+    }
+    .clients-heading p {
+        margin-right: 68px;
+        letter-spacing: 1px;
+    }
+        
     .client-logos {
-        margin-top: 35px;
+        margin-top: 21px;
         margin-right: 66px;        
         /* border: solid orange;     */
     }
     .client-logos img {
-        width: 185px;
-        margin: 17px 34px;
+        width: 153px;
+        margin: -2px 34px;
     }
 
     .testimonial-box {
         width: 970px;
         margin: auto;
-        margin-top: 186px;
+        margin-top: -6px;
         background-image: url(../img/red-arrow.svg);
         background-position: 88% 25%;
         background-size: 110px;
