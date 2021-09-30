@@ -366,21 +366,21 @@ footer h3 {
     }
     .story2 {
         padding-top: 20px;
-        flex: 0 0 570px;   
+        flex: 0 0 569px;   
     }
     .story2 p {
         padding-right: 65px;
     }
     .story-img2 {
-        flex: 0 1 350px;
-        padding-top: 15px;
-        margin-left: -62px;
-        margin-right: 90px;
+        flex: 0 1 366px;
+        padding-top: 8px;
+        margin-left: -61px;
+        margin-right: 94px;
     }
 
     .mission-box {
         width: 678px;
-        margin-top: -33px;
+        margin-top: -35px;
     }
     .mission-content {
         margin-right: 20px;
