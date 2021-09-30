@@ -295,8 +295,8 @@ footer h3 {
 @media screen and (min-width: 1020px) {
     
     body {
-        background-size: 1153px;
-        background-position: center -138px;
+        background-size: 1183px;
+        background-position: center -155px;
     }
 
     header h1 {
@@ -339,7 +339,7 @@ footer h3 {
     }
       
     .services-box {
-        margin-top: 48px;         
+        margin-top: 47px;         
         /* border: solid orange;     */
     }
     .services-heading h2, .services-heading p {
@@ -359,7 +359,7 @@ footer h3 {
     .clients-box {
         width: 960px;
         margin: auto;
-        padding-top: 12px;        
+        padding-top: 14px;        
     }
     .clients-heading h2, .clients-heading p {
         text-align: center;
@@ -368,7 +368,7 @@ footer h3 {
         letter-spacing: 2px;
     }
     .client-logos img {
-        margin: 0 6px;
+        margin: 0 16px;
     }
     .client-logos {
         margin-top: 40px;
@@ -378,7 +378,7 @@ footer h3 {
 
     .testimonial-box {
         width: 928px;
-        margin: auto;
+        margin: 18px auto 0;
         background-image: url(../img/red-arrow.svg);
         background-position: 100% 24%;
         background-size: 110px;

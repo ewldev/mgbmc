@@ -5,7 +5,7 @@
             // centerMode:true,
             
             slidesToShow: 5,
-            slidesToScroll: 1,
+            slidesToScroll: 2,
             autoplay: true,
             arrows: false,
            
