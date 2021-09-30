@@ -283,7 +283,7 @@ footer h3 {
         margin: 20px 0px;
     }
     .approach-img {
-        margin: 19px -10px 0 18px;
+        margin: 17px -10px 0 18px;
     }
     
     footer {
@@ -380,7 +380,7 @@ footer h3 {
 
     .mission-box {
         width: 678px;
-        margin-top: -34px;
+        margin-top: -33px;
     }
     .mission-content {
         margin-right: 20px;
@@ -397,8 +397,8 @@ footer h3 {
     }
 
     .approach-box {
-        width: 934px;
-        margin: 97px auto 0;
+        width: 959px;
+        margin: 98px auto 0;
     }
     .approach-box h2 {
         padding-right: 61px;
@@ -407,10 +407,10 @@ footer h3 {
         padding-top: 15px;
     }
     .approach-content p {
-        flex: 0 0 510px;        
+        flex: 0 0 477px;        
     } 
     .approach-img {
-        flex: 0 0 346px;
+        flex: 0 0 380px;
     }
      
     footer {
