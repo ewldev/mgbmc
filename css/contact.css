@@ -230,10 +230,14 @@ footer h3 {
     }  
        
     .contact-box {
-        width: 819px;
+        width: 827px;
         margin: auto;
         justify-content: space-around;
         padding-top: 57px
+    }
+    .contact-img {
+        flex: 0 1 364px;
+        padding-top: 36px;
     }
     
     footer {
