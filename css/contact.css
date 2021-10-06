@@ -64,12 +64,6 @@ main h2 {
     padding-top: 39px; 
 }
 
-/* .contact-img {
-    width: 450px;
-    margin: auto;
-    padding-left: 2%;
-} */
-
 .contact-box img {
     width: 80%;
     display: block;
@@ -148,8 +142,8 @@ footer h3 {
 @media screen and (min-width: 760px)  {
     
     body {
-        background-size: 1192px;
-        background-position: center 137px;
+        background-size: 1212px;
+        background-position: center 410px;
         background-repeat: no-repeat;
     }
     
@@ -168,8 +162,16 @@ footer h3 {
         flex-wrap: wrap;
     }
     .contact-img {
-        margin: unset
+        flex: 0 1 280px;
+        padding-top: 50px;
     }
+    .contact-box img {
+        width: 100%;        
+    } 
+    .reach-us-content h3 {
+        padding-top: 23px;
+    }
+
     .location-lg {
         display: unset;
     }
