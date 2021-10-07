@@ -1,20 +1,19 @@
-//hide phone number
+//show email and phone number 
+
+const emailAddress = "rochelle@mgbmc.com";
 const phoneNumber1 = "+1 416 587 0971";
-document.getElementById("phone1").innerHTML=`${phoneNumber1}`;
-// document.getElementById("callme").innerHTML=`<a href="tel:${phoneNumber}">${phoneNumber}</a>`;
-const phoneNumber2 = "+1 416 587 0971";
-document.getElementById("phone2").innerHTML=`${phoneNumber2}`;
+const phoneNumber2 = "+1 416.587.0971";
+const showEmail = document.getElementsByClassName("email")
+const showNumber = document.getElementsByClassName("phone");
 
-const phoneNumber3 = "+1 416.587.0971";
-document.getElementById("phone3").innerHTML=`${phoneNumber3}`;
+showEmail[0].innerHTML = `${emailAddress}`;
+showEmail[1].innerHTML = `${emailAddress}`;
+showEmail[2].innerHTML = `${emailAddress}`;
+showNumber[0].innerHTML = `${phoneNumber1}`;
+showNumber[1].innerHTML = `${phoneNumber2}`;
+showNumber[2].innerHTML = `${phoneNumber1}`;
 
 
-//hide email address
-const emailAddress1 = "rochelle@mgbmc.com";
-document.getElementById("sendmail1").innerHTML=`${emailAddress1}`;
-// document.getElementById("sendmail").innerHTML=`<a href="mailto:${emailAddress}">${emailAddress}</a>`;
-const emailAddress2 = "rochelle@mgbmc.com";
-document.getElementById("sendmail2").innerHTML=`${emailAddress2}`
 
-const emailAddress3 = "rochelle@mgbmc.com";
-document.getElementById("sendmail3").innerHTML=`${emailAddress3}`;
+
+

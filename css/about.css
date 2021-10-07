@@ -165,10 +165,6 @@ footer h3 {
 .contact-info2 {
     margin: 0 auto;
 }
-.name{
-    margin-top: -15px;
-    margin-bottom: 20px;
-}
 .phone2 {
     margin-top: 13px;
 }
@@ -425,10 +421,6 @@ footer h3 {
     .contact-info2 {
         padding-bottom: 32px;
     }
-    /* footer .name{
-        margin-top: -15px;
-        margin-bottom: 20px;
-    } */
     .phone2 {
         margin-top: 13px;
     }
