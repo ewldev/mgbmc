@@ -97,7 +97,7 @@ header h1 {
 .clients-box {
     margin: 50px 0px;    
 }
-.clients-heading h2, .clients-heading p {
+.clients-heading h2 {
     text-align: center;
     font-weight: 600;
 }
@@ -313,7 +313,7 @@ footer h3 {
     .about-box {
         width: 910px;
         margin: auto; 
-        padding-top: 88px;            
+        padding-top: 89px;            
     }
     .about-heading h2, .about-heading p {
         text-align: center;
@@ -335,12 +335,12 @@ footer h3 {
     }
       
     .services-box {
-        margin-top: 47px;         
+        margin-top: 43px;         
         /* border: solid orange;     */
     }
     .services-heading h2, .services-heading p {
         text-align: center;
-        margin-left: 62px;
+        margin-left: 52px;
         font-weight: 600;
         letter-spacing: 2px;
     }
@@ -355,9 +355,9 @@ footer h3 {
     .clients-box {
         width: 960px;
         margin: auto;
-        padding-top: 14px;        
+        padding-top: 16px;        
     }
-    .clients-heading h2, .clients-heading p {
+    .clients-heading h2 {
         text-align: center;
         margin-left: 50px;
         font-weight: 600;
@@ -367,14 +367,14 @@ footer h3 {
         margin: 0 16px;
     }
     .client-logos {
-        margin-top: 40px;
+        margin-top: 72px;
         margin-left: 57px;
         /* border: solid orange;     */
     }
 
     .testimonial-box {
         width: 928px;
-        margin: 18px auto 0;
+        margin: 20px auto 0;
         background-image: url(../img/red-arrow.svg);
         background-position: 100% 24%;
         background-size: 110px;
