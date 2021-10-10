@@ -225,13 +225,21 @@ footer h3 {
     }
         
     .client-logos {
-        margin-top: 21px;
+        margin-top: 20px;
         margin-right: 66px;        
         /* border: solid orange;     */
     }
     .client-logos img {
         width: 153px;
         margin: -2px 34px;
+    }
+    #islington {
+        width: 180px;
+        margin: 0 15px;
+    } 
+    #luxury {
+        width: 200px;
+        margin: 0 12px;
     }
 
     .testimonial-box {
