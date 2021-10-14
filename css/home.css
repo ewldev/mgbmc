@@ -69,13 +69,10 @@ header h1 {
 .history a {
     margin-left: 50px;
 }
-.about-img {
-    width: 300px;    
-    margin: auto;
-    margin-top: 30px;    
-}
 .about-img img {
     width: 300px;
+    display: block;
+    margin: 30px auto ;
 }
 
 .services-box {
@@ -229,7 +226,7 @@ footer h3 {
         line-height: 35px;
     }
     .about-img img {
-        margin-top: 15px;
+        margin-top: 53px;
     }
 
     .services-box {
@@ -324,7 +321,7 @@ footer h3 {
     .history {
         flex: 0 1 450px;
         margin-left: 50px;
-        margin-right: -50px;
+        margin-right: 25px;
     }    
     .history p {
         margin-top: 20px;
@@ -332,6 +329,7 @@ footer h3 {
     }
     .about-img img {
         width: 380px;
+        margin-top: 23px;
     }
       
     .services-box {
@@ -374,7 +372,7 @@ footer h3 {
       
     .testimonial-box {
         width: 928px;
-        margin: 20px auto 0;
+        margin: 8px auto 0;
         background-image: url(../img/red-arrow.svg);
         background-position: 100% 24%;
         background-size: 110px;
