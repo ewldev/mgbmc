@@ -384,13 +384,13 @@ footer h3 {
         justify-content: space-between;
     }
     .branded-img {
-        flex: 0 1 400px;
+        flex: 0 1 365px;
         margin: 0;
-        padding-top: 65px;
+        padding-top: 89px;
     }
     .branded-content {
-        flex: 0 1 545px;
-        padding-top: 20px;
+        flex: 0 1 586px;
+        padding-top: 33px;
     }
     .branded-content h5 {
         padding: 0 0 8px;
@@ -402,7 +402,7 @@ footer h3 {
     .apparel-box {
         width: 1008px;
         margin: auto;
-        padding-top: 70px;
+        padding-top: 78px;
         display: flex;
         justify-content: flex-end;       
     }
