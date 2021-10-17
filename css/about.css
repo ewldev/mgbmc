@@ -126,7 +126,7 @@ header h1 {
     margin: 20px 15px; 
 }
 .mission-img img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .approach-box {
@@ -146,7 +146,7 @@ header h1 {
     margin: 20px 15px; 
 }
 .approach-img img {
-    max-width: 100%;
+    width: 100%;
 }
 
 footer {
