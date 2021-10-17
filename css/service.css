@@ -63,11 +63,11 @@ header h1 {
     padding-top: 60px;
 }
 
-.branded-img {
-    margin: 20px 15px;    
-}
 .branded-img img {
-    width: 100%;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    padding-top: 30px;
 }
 .branded-title {
     display: flex;
@@ -88,11 +88,10 @@ header h1 {
 .apparel-box {
     padding-top: 50px;
 }
-.apparel-img {
-    margin: 20px 15px;    
-} 
 .apparel-img img {
-    max-width: 100%;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
 }
 .apparel-title {
     display: flex;
@@ -112,11 +111,10 @@ header h1 {
 .award-box {
     padding-top: 50px;
 }
-.award-img {
-    margin: 20px 15px;
-}
 .award-img img {
-    max-width: 100%;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
 }
 .award-title {
     display: flex;
@@ -137,11 +135,10 @@ header h1 {
 .trades-box {
     padding-top: 50px;
 }
-.trades-img {
-    margin: 20px 15px;
-}
 .trades-img img {
-    max-width: 100%;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
 }
 .trades-title {
     display: flex;
@@ -162,11 +159,10 @@ header h1 {
 .graphic-box {
     padding-top: 50px;
 }
-.graphic-img {
-    margin: 20px 15px;
-}
 .graphic-img img {
-    max-width: 100%;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
 }
 .graphic-title {
     display: flex;
@@ -187,11 +183,10 @@ header h1 {
 .warehouse-box {
     padding-top: 50px;
 }
-.warehouse-img {
-    margin: 20px 15px;
-}
 .warehouse-img img {
-    max-width: 100%;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
 }
 .warehouse-title {
     display: flex;
@@ -274,9 +269,8 @@ footer h3 {
         margin-right: 12px;
     }
     
-    .branded-img {
+    .branded-img img {
         width: 343px;
-        margin: 20px auto;  
     }
     .branded-title {
         align-items:unset;
@@ -284,9 +278,8 @@ footer h3 {
         margin: auto;
     }
 
-    .apparel-img {
+    .apparel-img img {
         width: 343px;
-        margin: 20px auto;    
     } 
     .apparel-title {
         align-items:unset;
@@ -294,19 +287,17 @@ footer h3 {
         margin: auto;
     }
 
-    .award-img {
+    .award-img img {
         width: 385px;
-        margin: 20px auto;    
-    } 
+    }   
     .award-title {
         align-items:unset;
         width: 450px;
         margin: auto;
     }
 
-    .trades-img {
+    .trades-img img {
         width: 385px;
-        margin: 20px auto;    
     } 
     .trades-title {
         align-items:unset;
@@ -314,18 +305,16 @@ footer h3 {
         margin: auto;
     }
     
-    .graphic-img {
+    .graphic-img img {
         width: 385px;
-        margin: 20px auto;    
     } 
     .graphic-title {
         width: 450px;
         margin: auto;
     }
 
-    .warehouse-img {
+    .warehouse-img img {
         width: 385px;
-        margin: 20px auto;    
     } 
     .warehouse-title {
         width: 450px;
