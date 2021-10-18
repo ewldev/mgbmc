@@ -270,7 +270,7 @@ footer h3 {
     }
     
     .branded-img img {
-        width: 343px;
+        width: 385px;
     }
     .branded-title {
         align-items:unset;
@@ -279,7 +279,7 @@ footer h3 {
     }
 
     .apparel-img img {
-        width: 343px;
+        width: 385px;
     } 
     .apparel-title {
         align-items:unset;
@@ -375,7 +375,10 @@ footer h3 {
     .branded-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 65px;
+        padding-top: 15px;
+    }
+    .branded-img img {
+        width: 100%;
     }
     .branded-content {
         flex: 0 1 545px;
@@ -399,8 +402,11 @@ footer h3 {
     .apparel-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 57px;
+        padding-top: 37px;
         order: 1;
+    }
+    .apparel-img img {
+        width: 100%;
     }
     .apparel-content {
         flex: 0 1 502px;
@@ -422,7 +428,10 @@ footer h3 {
     .award-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 53px;        
+        padding-top: 33px;        
+    }
+    .award-img img {
+        width: 100%;
     }
     .award-content {
         flex: 0 1 485px;
@@ -447,8 +456,11 @@ footer h3 {
     .trades-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 64px;
+        padding-top: 44px;
         order: 1;
+    }
+    .trades-img img {
+        width: 100%;
     }
     .trades-content {
         flex: 0 1 502px;
@@ -474,7 +486,10 @@ footer h3 {
     .graphic-img {
         flex: 0 1 400px;
         margin: 0;
-        padding-top: 56px;        
+        padding-top: 36px;        
+    }
+    .graphic-img img {
+        width: 100%;
     }
     .graphic-content {
         flex: 0 1 485px;
@@ -500,7 +515,10 @@ footer h3 {
         flex: 0 1 400px;
         order: 1;
         margin: 0;        
-        padding-top: 20px;
+        /* padding-top: 20px; */
+    }
+    .warehouse-img img {
+        width: 100%;
     }
     .warehouse-content {
         flex: 0 1 502px;
